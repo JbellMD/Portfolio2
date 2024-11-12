@@ -1,5 +1,5 @@
-// src/components/ContactForm.jsx
 import React, { useState } from 'react';
+import './ContactForm.css'; // Import the new CSS file
 
 const ContactForm = () => {
     const [name, setName] = useState('');
@@ -8,7 +8,6 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Add form submission logic here
         alert('Message sent!');
     };
 
