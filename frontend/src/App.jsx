@@ -9,6 +9,7 @@ import ContactMe from './pages/ContactMe';
 import Projects from './pages/Projects';
 import CodeProjects from './pages/CodeProjects';
 import ArchitectureProjects from './pages/ArchitectureProjects';
+import Certifications from './pages/Certifications';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/projects/code" element={<CodeProjects />} />
                     <Route path="/projects/architecture" element={<ArchitectureProjects />} />
+                    <Route path="/certifications" element={<Certifications />} />
                 </Routes>
             </div>
         </Router>
