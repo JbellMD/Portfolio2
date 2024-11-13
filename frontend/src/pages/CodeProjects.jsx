@@ -10,9 +10,9 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone'
     },
     {
-        title: 'e-Commerce Wesbite',
+        title: 'e-Commerce Wesbite: Plants',
         description: 'This is my React powered e-Commerce wesbite',
-        imageUrl: '/cloud.jpg',
+        imageUrl: '/plants.png',
         demoLink: 'https://jbellmd.github.io/ReactApp/',
         codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
