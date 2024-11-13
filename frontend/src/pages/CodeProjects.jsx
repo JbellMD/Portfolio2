@@ -13,8 +13,8 @@ const projectData = [
         title: 'e-Commerce Wesbite',
         description: 'This is my React powered e-Commerce wesbite',
         imageUrl: '/cloud.jpg',
-        demoLink: 'https://link-to-your-live-demo2.com',
-        codeLink: 'https://github.com/your-username/repo2'
+        demoLink: 'https://jbellmd.github.io/ReactApp/',
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
         title: 'Review System',
