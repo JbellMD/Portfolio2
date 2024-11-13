@@ -7,14 +7,14 @@ const projectData = [
         description: 'This my React powered Car Dealership website.',
         imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
         demoLink: 'https://link-to-your-live-demo1.com',
-        codeLink: 'https://github.com/your-username/repo1'
+        codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone'
     },
     {
         title: 'e-Commerce Wesbite',
         description: 'This is my React powered e-Commerce wesbite',
         imageUrl: '/cloud.jpg',
-        demoLink: 'https://link-to-your-live-demo2.com',
-        codeLink: 'https://github.com/your-username/repo2'
+        demoLink: 'https://jbellmd.github.io/ReactApp/',
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
         title: 'Review System',
