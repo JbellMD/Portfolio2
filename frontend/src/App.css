@@ -153,7 +153,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('/home/ijbello29/Portfolio/frontend/public/cloud.jpg') center/cover no-repeat;
+  background-image: url('/cloud.jpg') center/cover no-repeat;
   /* Replace 'hero-bg.jpg' with the actual path to your image */
   color: white;
   text-align: center;
@@ -347,7 +347,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url('/home/ijbello29/Portfolio/frontend/public/red.jpg') center/cover no-repeat;
+  background: url('/red.jpg') center/cover no-repeat;
   color: white;
   text-align: center;
   overflow: hidden;
