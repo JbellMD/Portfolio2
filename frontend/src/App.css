@@ -472,10 +472,6 @@ body {
   /* Text color for labels */
 }
 
-.cert-title {
-  color: maroon;
-}
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .contact-me {
