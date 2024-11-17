@@ -4,12 +4,11 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const ContactMe = () => (
     <div className="contact-me">
-        <div><h1>Contact Me</h1>
-        <ContactForm />
+        <div><h1>Get in touch with me</h1>
+            <ContactForm />
         </div>
         {/* Social Links Section */}
         <div className="social-links">
-            <h2>Connect with Me</h2>
             <div className="links">
                 {/* Gmail */}
                 <a href="mailto:ijbello29@gmail.com" className="icon" target="_blank" rel="noopener noreferrer">

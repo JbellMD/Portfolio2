@@ -7,21 +7,21 @@ const projectData = [
         description: 'This my React powered Car Dealership website.',
         imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
         demoLink: 'https://link-to-your-live-demo1.com',
-        codeLink: 'https://github.com/your-username/repo1'
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
-        title: 'e-Commerce Wesbite',
+        title: 'e-Commerce Wesbite: Plants',
         description: 'This is my React powered e-Commerce wesbite',
-        imageUrl: '/cloud.jpg',
-        demoLink: 'https://link-to-your-live-demo2.com',
-        codeLink: 'https://github.com/your-username/repo2'
+        imageUrl: '/plants.png',
+        demoLink: 'https://jbellmd.github.io/ReactApp/',
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
         title: 'Review System',
         description: 'This is a book review addition',
         imageUrl: '/arc1.png', // Replace with the actual path to a screenshot
         demoLink: 'https://link-to-your-live-demo1.com',
-        codeLink: 'https://github.com/your-username/repo1'
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     }
 ];
 
