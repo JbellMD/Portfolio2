@@ -485,3 +485,7 @@ body {
     /* Full width on small screens */
   }
 }
+
+.cert-title {
+  color: maroon;
+}

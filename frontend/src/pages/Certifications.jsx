@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'; // Import your stylesheet
 
 const Certifications = () => {
     const certifications = [
@@ -14,22 +15,22 @@ const Certifications = () => {
         },
         {
             title: 'IBM AI Developer Professional Certificate',
-            fileUrl: '/path/to/ibm-ai-dev-cert.pdf',
+            fileUrl: './ibmai.pdf',
             description: 'Mastered the fundamentals of software engineering, AI, generative AI, prompt engineering, HTML, JavaScript and Python programming. Gained proficiency in GoLang, LLMs, RAG, MLOps, and API integration for REST framework.'
         },
         {
             title: 'AWS Cloud Consultant Professional Certificate',
-            fileUrl: '/path/to/aws-cloud-consult-cert.pdf',
+            fileUrl: './awsctc.pdf',
             description: 'Mastered making informed decisions about when and how to apply key AWS Services for compute, storage, database, networking, monitoring, and security.'
         },
         {
             title: 'AWS Cloud Solutions Architect Professional Certificate',
-            fileUrl: '/path/to/aws-cloud-architect-cert.pdf',
+            fileUrl: './awssa.pdf',
             description: 'Designed architectural solutions, whether designing for cost, performance, and/or operational excellence, to address common business challenges.'
         },
         {
-            title: 'Microsoft Cybersecurity Analyst Professional Certificate',
-            fileUrl: '/path/to/ms-cybersecurity-analyst-cert.pdf',
+            title: 'Architecting on Google Compute Engine',
+            fileUrl: './google.pdf',
             description: 'Threat mitigation strategies from an enterprise perspective, apply effective cybersecurity policy measures within an Azure environment, & practice on tools like MS defender, Azure Active Directory.'
         },
         {
@@ -44,7 +45,7 @@ const Certifications = () => {
             <h1>Certifications</h1>
             {certifications.map((cert, index) => (
                 <div key={index} style={{ marginBottom: '40px' }}>
-                    <h2>
+                    <h2 className="cert-title">
                         <a href={cert.fileUrl} target="_blank" rel="noopener noreferrer">
                             {cert.title}
                         </a>

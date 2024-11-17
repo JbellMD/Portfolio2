@@ -7,7 +7,7 @@ const projectData = [
         description: 'This my React powered Car Dealership website.',
         imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
         demoLink: 'https://link-to-your-live-demo1.com',
-        codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone'
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
         title: 'e-Commerce Wesbite: Plants',
@@ -17,11 +17,11 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
-        title: 'Review System',
-        description: 'This is a book review addition',
-        imageUrl: '/arc1.png', // Replace with the actual path to a screenshot
-        demoLink: 'https://link-to-your-live-demo1.com',
-        codeLink: 'https://github.com/your-username/repo1'
+        title: 'Weather Dashboard',
+        description: 'Created with API integration to OpenWeather',
+        imageUrl: '/weather.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://jbellmd.github.io/weather-dashboard/',
+        codeLink: 'https://github.com/JbellMD/weather-dashboard'
     }
 ];
 
