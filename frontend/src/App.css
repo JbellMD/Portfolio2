@@ -394,12 +394,13 @@ body {
 
 .contact-me {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
+    flex-direction: row; /* Align elements side by side */
+    align-items: flex-start; /* Align content to the top */
+    justify-content: center; /* Center the content horizontally */
     padding: 2rem;
     background-color: #040125; /* Solid background color */
     color: #ddd;
-    gap: 2rem; /* Space between sections */
+    gap: 2rem; /* Add space between sections */
 }
 
 .contact-me h1 {
@@ -458,7 +459,7 @@ body {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .contact-me {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column; /* Stack elements vertically on small screens */
         align-items: center;
     }
 
@@ -466,3 +467,4 @@ body {
         max-width: 100%; /* Full width on small screens */
     }
 }
+
