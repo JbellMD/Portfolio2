@@ -22,7 +22,7 @@
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 100%;
+    width: 200%;
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 4px;
