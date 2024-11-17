@@ -413,16 +413,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start; /* Align content to the top */
     gap: 1rem;
     max-width: 400px;
     padding: 1.5rem;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    background-color: #00162c; /* Navy blue to match background */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .social-links h2 {
-    color: #028090;
+    color: #fff; /* White color for "Connect with me" */
     font-size: 1.8rem;
     margin-bottom: 1rem;
     text-align: center;
