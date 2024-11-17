@@ -472,6 +472,10 @@ body {
   /* Text color for labels */
 }
 
+.cert-title {
+  color: maroon;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .contact-me {
@@ -484,8 +488,4 @@ body {
     max-width: 100%;
     /* Full width on small screens */
   }
-}
-
-.cert-title {
-  color: maroon;
 }
