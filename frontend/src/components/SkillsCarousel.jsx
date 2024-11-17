@@ -1,7 +1,8 @@
 // src/components/SkillsCarousel.jsx
 import React from 'react';
-import { FaReact, FaJs, FaAws, FaPython } from 'react-icons/fa'; // Example icons
-import { SiDocker, SiMongodb } from 'react-icons/si'; // More icons
+import { FaReact, FaJs, FaAws, FaPython, FaAngular } from 'react-icons/fa'; // Angular added
+import { SiDocker, SiMongodb, SiKubernetes, SiMicrosoftazure, SiGooglecloud } from 'react-icons/si'; // Azure, GCP, Kubernetes added
+import { GrMysql } from 'react-icons/gr'; // MySQL for SQL
 import './SkillsCarousel.css';
 
 const skills = [
@@ -11,7 +12,11 @@ const skills = [
     { name: "Python", icon: <FaPython /> },
     { name: "Docker", icon: <SiDocker /> },
     { name: "MongoDB", icon: <SiMongodb /> },
-    // Add more skills as needed
+    { name: "SQL", icon: <GrMysql /> },
+    { name: "Microsoft Azure", icon: <SiMicrosoftazure /> },
+    { name: "GCP", icon: <SiGooglecloud /> },
+    { name: "Angular", icon: <FaAngular /> },
+    { name: "Kubernetes", icon: <SiKubernetes /> },
 ];
 
 const SkillsCarousel = () => (
