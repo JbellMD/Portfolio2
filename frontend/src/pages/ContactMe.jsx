@@ -4,9 +4,9 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const ContactMe = () => (
     <div className="contact-me">
-        <h1>Contact Me</h1>
+        <div><h1>Contact Me</h1>
         <ContactForm />
-        
+        </div>
         {/* Social Links Section */}
         <div className="social-links">
             <h2>Connect with Me</h2>
