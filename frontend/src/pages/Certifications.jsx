@@ -3,11 +3,6 @@ import React from 'react';
 const Certifications = () => {
     const certifications = [
         {
-            title: 'IBM IT Support Professional Certificate',
-            fileUrl: './ibmit.pdf',
-            description: 'Latest skills and tools used by IT support professionals including hardware and software setup, technical support, customer service, ticketing systems, service level agreements, and troubleshooting.'
-        },
-        {
             title: 'IBM Full Stack Software Developer Professional Certificate',
             fileUrl: './ibmdev.pdf',
             description: 'Build, deploy, test, run, and manage full stack cloud native applications. GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.'
@@ -31,6 +26,11 @@ const Certifications = () => {
             title: 'Architecting on Google Compute Engine',
             fileUrl: './google.pdf',
             description: 'Threat mitigation strategies from an enterprise perspective, apply effective cybersecurity policy measures within an Azure environment, & practice on tools like MS defender, Azure Active Directory.'
+        },
+        {
+            title: 'IBM IT Support Professional Certificate',
+            fileUrl: './ibmit.pdf',
+            description: 'Latest skills and tools used by IT support professionals including hardware and software setup, technical support, customer service, ticketing systems, service level agreements, and troubleshooting.'
         },
         {
             title: 'Microsoft IT Support Specialist Professional Certificate',
