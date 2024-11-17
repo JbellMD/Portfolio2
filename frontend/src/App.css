@@ -153,7 +153,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('./cloud.jpg') center/cover no-repeat;
+  background-image: url('./src/cloud.jpg') center/cover no-repeat;
   /* Replace 'hero-bg.jpg' with the actual path to your image */
   color: white;
   text-align: center;
