@@ -12,7 +12,7 @@ const HeroSection = () => (
             transition={{ duration: 1 }}
         >
             <h1>Jonathan Bello</h1>
-            <p>Full Stack Developer | Cloud Solutions Architect | Problem Solver</p>
+            <p><b>Full Stack Developer | Cloud Solutions Architect | AWS Cloud Institute Graduate</b></p>
             <motion.button
                 className="hero-button"
                 whileHover={{ scale: 1.1 }}
