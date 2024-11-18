@@ -1,4 +1,3 @@
-// src/pages/ArchitectureProjects.jsx
 import React from 'react';
 
 // Example image URLs, replace with your actual image paths or URLs
@@ -24,3 +23,4 @@ const ArchitectureProjects = () => (
 );
 
 export default ArchitectureProjects;
+
