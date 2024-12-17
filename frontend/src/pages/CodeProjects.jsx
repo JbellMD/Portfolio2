@@ -24,6 +24,13 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
+        title: 'Car Dealership Website v2',
+        description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
+        imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
+        demoLink: 'https://link-to-your-live-demo1.com',
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
+    },
+    {
         title: 'AI Fitness Insights',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
