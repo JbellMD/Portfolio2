@@ -3,6 +3,13 @@ import ProjectCard from '../components/ProjectCard';
 
 const projectData = [
     {
+        title: 'AI Fitness Tracker',
+        description: 'This fitness tracker uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://ai-ftiness-tracker.netlify.app/',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
+    },
+    {
         title: 'Weather Dashboard',
         description: 'Created with API integration with OpenWeather to show standard web integration created with JavaScript and React demonstrating REST API principles.',
         imageUrl: '/weather.png', // Replace with the actual path to a screenshot
@@ -17,8 +24,8 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
-        title: 'AI Fitness Tracker',
-        description: 'This fitness tracker is a demonstration in reating interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        title: 'AI Fitness Insights',
+        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
