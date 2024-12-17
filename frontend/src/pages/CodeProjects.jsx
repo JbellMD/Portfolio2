@@ -18,14 +18,14 @@ const projectData = [
     },
     {
         title: 'AI Fitness Tracker',
-        description: 'This fitness tracker is a basic exercise for creating interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        description: 'This fitness tracker is a demonstration in reating interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
     {
         title: 'Car Dealership Website',
-        description: 'This my React powered Car Dealership website.',
+        description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
         imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
         demoLink: 'https://link-to-your-live-demo1.com',
         codeLink: 'https://github.com/JbellMD/ReactApp/'
