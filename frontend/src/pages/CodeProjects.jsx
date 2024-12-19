@@ -13,7 +13,7 @@ const projectData = [
         title: 'Weather Dashboard',
         description: 'Created with API integration with OpenWeather to show standard web integration created with JavaScript and React demonstrating REST API principles.',
         imageUrl: '/weather.png', // Replace with the actual path to a screenshot
-        demoLink: 'https://jbellmd.github.io/weather-dashboard/',
+        demoLink: 'https://weather-dashboard-a6286.web.app/',
         codeLink: 'https://github.com/JbellMD/weather-dashboard'
     },
     {
