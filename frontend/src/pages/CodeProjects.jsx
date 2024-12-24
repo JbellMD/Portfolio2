@@ -38,6 +38,13 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
+        title: 'Car Dealership Reviews',
+        description: 'Django application uses interactive frontends with React while creating backend logic with Supabase as a Postgres DB.',
+        imageUrl: '/car.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://jbellcardealer.netlify.app/dealers',
+        codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone'
+    },
+    {
         title: 'AI Fitness Insights',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/insight.png', // Replace with the actual path to a screenshot
