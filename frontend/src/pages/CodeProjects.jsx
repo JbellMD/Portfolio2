@@ -14,7 +14,7 @@ const projectData = [
         description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
         imageUrl: '/core.png', // Replace with the actual path to a screenshot
         demoLink: 'https://coreflow.vercel.app/',
-        codeLink: 'https://github.com/JbellMD/ReactApp/'
+        codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
         title: 'Weather Dashboard',
@@ -35,7 +35,7 @@ const projectData = [
         description: 'Next.JS app uses interactive frontends with Typescript while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fit.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-fitness-next.web.app/',
-        codeLink: 'https://github.com/JbellMD/ReactApp/'
+        codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
         title: 'AI Fitness Insights',
