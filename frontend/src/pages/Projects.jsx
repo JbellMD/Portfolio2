@@ -4,14 +4,14 @@ import ProjectCard from '../components/ProjectCard';
 const projectData = [
     {
         title: 'AI Fitness Application',
-        description: 'Next.JS app uses interactive frontends with Typescript while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
     {
         title: 'AI Fitness Application v3',
-        description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
+        description: 'Next.JS app uses interactive frontends with Typescript to provide the latest version of fitness and nutrition application',
         imageUrl: '/core.png', // Replace with the actual path to a screenshot
         demoLink: 'https://coreflow.vercel.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next'
