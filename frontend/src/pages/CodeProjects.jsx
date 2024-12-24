@@ -3,11 +3,18 @@ import ProjectCard from '../components/ProjectCard';
 
 const projectData = [
     {
-        title: 'AI Fitness Tracker',
-        description: 'This fitness tracker uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        title: 'AI Fitness Application',
+        description: 'Next.JS app uses interactive frontends with Typescript while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
+    },
+    {
+        title: 'AI Fitness Application v3',
+        description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
+        imageUrl: '/core.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://coreflow.vercel.app/',
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
         title: 'Weather Dashboard',
@@ -24,10 +31,10 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
-        title: 'Car Dealership Website v2',
-        description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
-        imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
-        demoLink: 'https://link-to-your-live-demo1.com',
+        title: 'AI Fitness Application v2',
+        description: 'Next.JS app uses interactive frontends with Typescript while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        imageUrl: '/fit.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://ai-fitness-next.web.app/',
         codeLink: 'https://github.com/JbellMD/ReactApp/'
     },
     {
@@ -37,13 +44,7 @@ const projectData = [
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
-    {
-        title: 'Car Dealership Website',
-        description: 'This my React powered Car Dealership website featuring Django, MongoDB, and IBMs Sentiment Analyzer .',
-        imageUrl: '/car.jpg', // Replace with the actual path to a screenshot
-        demoLink: 'https://link-to-your-live-demo1.com',
-        codeLink: 'https://github.com/JbellMD/ReactApp/'
-    },
+
 ];
 
 const Projects = () => (
