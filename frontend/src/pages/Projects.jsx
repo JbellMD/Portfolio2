@@ -40,7 +40,7 @@ const projectData = [
     {
         title: 'AI Fitness Insights',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
-        imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
+        imageUrl: '/insight.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
