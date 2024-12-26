@@ -2,6 +2,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaArrowRight } from 'react-icons/fa';
+import Testimonials from './Testimonials';
+import './HeroSection.css';
 
 const HeroSection = () => (
     <div className="hero-section">
@@ -20,6 +22,9 @@ const HeroSection = () => (
             >
                 Explore My Work <FaArrowRight style={{ marginLeft: '8px' }} />
             </motion.button>
+            <div className="testimonials-compact">
+                <Testimonials />
+            </div>
         </motion.div>
     </div>
 );

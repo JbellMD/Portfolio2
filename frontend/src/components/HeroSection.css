@@ -1,0 +1,174 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d3436 100%);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    position: relative;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d3436 100%);
+}
+
+/* Add a dark overlay */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(
+        circle at center,
+        rgba(26, 26, 26, 0.7) 0%,
+        rgba(26, 26, 26, 0.85) 100%
+    );
+    z-index: 1;
+}
+
+/* Add a subtle glow effect behind the content */
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background: radial-gradient(
+        circle at center,
+        rgba(97, 218, 251, 0.1) 0%,
+        transparent 70%
+    );
+    filter: blur(50px);
+    z-index: 1;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #61dafb, #1976d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 30px rgba(97, 218, 251, 0.3);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background: linear-gradient(45deg, #61dafb, #1976d2);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.hero-button:hover {
+    box-shadow: 0 0 20px rgba(97, 218, 251, 0.5);
+}
+
+.testimonials-compact {
+    margin-top: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonials-compact .testimonials-section {
+    padding: 0;
+}
+
+.testimonials-compact .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.testimonials-compact .testimonial-card {
+    background: rgba(97, 218, 251, 0.05);
+    border: 1px solid rgba(97, 218, 251, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.testimonials-compact .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(97, 218, 251, 0.2);
+    background: rgba(97, 218, 251, 0.1);
+}
+
+.testimonials-compact .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #61dafb;
+    text-shadow: 0 0 20px rgba(97, 218, 251, 0.3);
+}
+
+.testimonials-compact .testimonial-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials-compact .author-name {
+    color: #61dafb;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.testimonials-compact .author-role {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+    .testimonials-compact .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-button {
+        padding: 0.8rem 1.6rem;
+        font-size: 1rem;
+    }
+
+    .testimonials-compact .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+}

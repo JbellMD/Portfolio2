@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFA726;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#FF7043;stop-opacity:0.3" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect x="0" y="0" width="800" height="600" fill="#1a1a1a"/>
+    
+    <!-- Components -->
+    <g transform="translate(50,50)">
+        <!-- Legacy System -->
+        <rect x="50" y="20" width="250" height="200" rx="10" fill="url(#grad1)" stroke="#FFA726" stroke-width="2"/>
+        <text x="175" y="50" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18">Legacy System</text>
+        
+        <rect x="70" y="70" width="210" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="175" y="95" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Monolithic Application</text>
+        
+        <rect x="70" y="120" width="210" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="175" y="145" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">On-Premise Database</text>
+        
+        <rect x="70" y="170" width="210" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="175" y="195" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Traditional Infrastructure</text>
+        
+        <!-- Migration Process -->
+        <path d="M320 120 L480 120" stroke="#FFA726" stroke-width="2" stroke-dasharray="10,5"/>
+        <polygon points="470,110 480,120 470,130" fill="#FFA726"/>
+        
+        <!-- Modern System -->
+        <rect x="500" y="20" width="250" height="200" rx="10" fill="url(#grad1)" stroke="#FFA726" stroke-width="2"/>
+        <text x="625" y="50" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18">Modern Cloud System</text>
+        
+        <rect x="520" y="70" width="210" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="625" y="95" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Microservices</text>
+        
+        <rect x="520" y="120" width="210" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="625" y="145" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Cloud Database</text>
+        
+        <rect x="520" y="170" width="210" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="625" y="195" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Container Orchestration</text>
+        
+        <!-- Migration Steps -->
+        <rect x="50" y="270" width="700" height="180" rx="10" fill="url(#grad1)" stroke="#FFA726" stroke-width="2"/>
+        <text x="400" y="300" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18">Migration Process</text>
+        
+        <rect x="70" y="320" width="150" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="145" y="345" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Assessment</text>
+        
+        <rect x="240" y="320" width="150" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="315" y="345" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Planning</text>
+        
+        <rect x="410" y="320" width="150" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="485" y="345" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Migration</text>
+        
+        <rect x="580" y="320" width="150" height="40" rx="5" fill="rgba(255,255,255,0.1)" stroke="#FFA726" stroke-width="1"/>
+        <text x="655" y="345" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14">Validation</text>
+        
+        <!-- Process Arrows -->
+        <path d="M220 340 L240 340 M390 340 L410 340 M560 340 L580 340" 
+              stroke="#FFA726" stroke-width="2"/>
+    </g>
+</svg>
