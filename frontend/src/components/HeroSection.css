@@ -94,7 +94,7 @@
 }
 
 .testimonials-compact {
-    margin-top: 1rem;
+    margin-top: -35px;
     position: relative;
     z-index: 2;
 }
@@ -125,6 +125,7 @@
 
 .testimonials-compact .section-title {
     font-size: 1.8rem;
+    margin-top: .1rem;
     margin-bottom: 1.5rem;
     color: #61dafb;
     text-shadow: 0 0 20px rgba(97, 218, 251, 0.3);
