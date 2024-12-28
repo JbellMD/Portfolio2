@@ -3,7 +3,14 @@ import ProjectCard from '../components/ProjectCard';
 
 const projectData = [
     {
-        title: 'AI Fitness Application',
+        title: 'e-Commerce Wesbite: Plants',
+        description: 'This is my React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
+        imageUrl: '/plants.png',
+        demoLink: 'https://jbellmd.github.io/ReactApp/',
+        codeLink: 'https://github.com/JbellMD/ReactApp/'
+    },
+    {
+        title: 'AI Fitness Tracker v1',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
@@ -43,14 +50,7 @@ const projectData = [
         imageUrl: '/car.png', // Replace with the actual path to a screenshot
         demoLink: 'https://jbellcardealer.netlify.app/dealers',
         codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone'
-    },
-    {
-        title: 'AI Fitness Insights',
-        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
-        imageUrl: '/insight.png', // Replace with the actual path to a screenshot
-        demoLink: 'https://ai-ftiness-tracker.netlify.app/',
-        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
-    },
+    }
 
 ];
 

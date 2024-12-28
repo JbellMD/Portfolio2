@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Sarah Chen",
     role: "CTO, TechVision Inc.",
-    content: "Their microservices design patterns significantly improved our system's scalability and reduced deployment time by 70%.",
+    content: "Jonathan's implementation of microservices design patterns significantly improved our system's scalability and reduced deployment time by 70%.",
     image: "/testimonial1.svg",
     rating: 5
   },
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Emma Thompson",
     role: "Product Manager, DataFlow",
-    content: "Their expertise in real-time analytics helped us process data 10x faster with elegant, future-proof solutions.",
+    content: "Jonathan's expertise in real-time analytics helped us process data 10x faster with elegant, future-proof solutions.",
     image: "/testimonial3.svg",
     rating: 5
   }
