@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const projectData = [
     {
-        title: 'AI Fitness Application',
+        title: 'AI Fitness Tracker v1',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
@@ -17,18 +17,18 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
-        title: 'Weather Dashboard',
-        description: 'Created with API integration with OpenWeather to show standard web integration created with JavaScript and React demonstrating REST API principles.',
-        imageUrl: '/weather.png', // Replace with the actual path to a screenshot
-        demoLink: 'https://weather-dashboard-a6286.web.app/',
-        codeLink: 'https://github.com/JbellMD/weather-dashboard'
-    },
-    {
         title: 'e-Commerce Wesbite: Plants',
         description: 'This is my React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
         imageUrl: '/plants.png',
         demoLink: 'https://jbellmd.github.io/ReactApp/',
         codeLink: 'https://github.com/JbellMD/ReactApp/'
+    },
+    {
+        title: 'Weather Dashboard',
+        description: 'Created with API integration with OpenWeather to show standard web integration created with JavaScript and React demonstrating REST API principles.',
+        imageUrl: '/weather.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://weather-dashboard-a6286.web.app/',
+        codeLink: 'https://github.com/JbellMD/weather-dashboard'
     },
     {
         title: 'AI Fitness Application v2',
@@ -45,7 +45,7 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone'
     },
     {
-        title: 'AI Fitness Insights',
+        title: 'AI Fitness Insights v2',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/insight.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
