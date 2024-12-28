@@ -25,6 +25,9 @@ const ProjectCard = ({ title, description, imageUrl, demoLink, codeLink }) => (
                 <span className="tech-tag">React</span>
                 <span className="tech-tag">Next.js</span>
                 <span className="tech-tag">Firebase</span>
+                <span className="tech-tag">TypeScript</span>
+                <span className="tech-tag">Tailwind CSS</span>
+                <span className="tech-tag">Node.js</span>
             </div>
         </div>
     </div>
