@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="hero-section">
       <div className="hero-content">
         <h1>Jonathan Bello</h1>
-        <p>Full Stack Developer | Cloud Solutions Architect | AWS Cloud Institute Graduate</p>
+        <p><b>Full Stack Developer | Cloud Solutions Architect | AWS Cloud Institute Graduate</b></p>
         <Link to="/projects" className="hero-button">
           Explore My Work
         </Link>
