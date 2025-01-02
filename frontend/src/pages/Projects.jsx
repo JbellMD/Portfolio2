@@ -3,10 +3,10 @@ import ProjectCard from '../components/ProjectCard';
 
 const projectData = [
     {
-        title: 'AI Fitness Tracker v1',
-        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
-        imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
-        demoLink: 'https://ai-ftiness-tracker.netlify.app/',
+        title: 'Little Guy AI - Platform',
+        description: 'This project is a Next.js app that serves as a platform for users to generate content for a platform. It features a user-friendly interface and a custom content generation system.',
+        imageUrl: '/little.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://little-guy-ai.web.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
     {
@@ -31,11 +31,25 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/weather-dashboard'
     },
     {
+        title: 'AI Fitness Tracker v1',
+        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://ai-ftiness-tracker.netlify.app/',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
+    },
+    {
         title: 'AI Fitness Application v2',
         description: 'Next.JS app uses interactive frontends with Typescript while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fit.png', // Replace with the actual path to a screenshot
         demoLink: 'https://ai-fitness-next.web.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next'
+    },
+    {
+        title: 'MarvelAI - Platform',
+        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        imageUrl: '/marvel.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://little-guy-ai.web.app/products',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
     {
         title: 'Car Dealership Reviews',
