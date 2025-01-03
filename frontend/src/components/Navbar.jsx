@@ -25,7 +25,7 @@ const Navbar = () => {
                     <span>Projects <FaChevronDown /></span>
                     {projectsOpen && (
                         <div className="dropdown-menu">
-                            <Link to="/projects/code">Code Projects</Link>
+                            <Link to="/projects">Code Projects</Link>
                             <Link to="/projects/architecture">Architecture Projects</Link>
                             {/* Add individual project links here if needed */}
                         </div>
