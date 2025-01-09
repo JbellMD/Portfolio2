@@ -54,11 +54,43 @@ const Certifications = () => {
         },
         {
             title: 'Microsoft IT Support Specialist Professional Certificate',
-            fileUrl: '/path/to/ms-it-support-cert.pdf',
+            fileUrl: './microit.pdf',
             description: 'Strong foundation in IT support fundamentals, networking, software, hardware and data backup, cybersecurity, Microsoft 365 ecosystem, and Troubleshooting Diagnostics. Gained competency in how generative AI tools and techniques are used in IT Support.',
             issuer: 'Microsoft',
             date: 'February 2024',
             skills: ['IT Support', 'Microsoft 365', 'Networking', 'Cybersecurity']
+        },
+        {
+            title: 'Microsoft Azure Fundamentals AZ-900',
+            fileUrl: './microaz900.pdf',
+            description: 'Demonstrated foundational knowledge of cloud services and how those services are provided with Microsoft Azure. Covered core Azure services, security, privacy, compliance, trust, and pricing and support.',
+            issuer: 'Microsoft',
+            date: 'March 2024',
+            skills: ['Azure', 'Cloud Computing', 'Security', 'Compliance']
+        },
+        {
+            title: 'Information Technology (IT) and Cloud Fundamentals',
+            fileUrl: './ibmitcf.pdf',
+            description: 'Mastered core IT concepts, cloud computing principles, and fundamental knowledge of cloud service models (IaaS, PaaS, SaaS). Covered essential IT infrastructure, networking, and cloud deployment models.',
+            issuer: 'IBM',
+            date: 'February 2024',
+            skills: ['Cloud Computing', 'IT Infrastructure', 'Networking', 'Cloud Services']
+        },
+        {
+            title: 'Google Cloud Certification: Cloud Engineer',
+            fileUrl: './googeng.pdf',
+            description: 'Demonstrated ability to deploy applications, monitor operations, and manage enterprise solutions on Google Cloud Platform. Mastered core services like Compute Engine, Kubernetes Engine, and Cloud Storage.',
+            issuer: 'Google Cloud',
+            date: 'August 2024',
+            skills: ['Google Cloud', 'Cloud Engineering', 'DevOps', 'Infrastructure']
+        },
+        {
+            title: 'Google Cloud Certification: CloudArchitect',
+            fileUrl: './googca.pdf',
+            description: 'Demonstrated ability to design, deploy, and manage scalable cloud solutions. Mastered core cloud services, infrastructure as code, and cloud security.',
+            issuer: 'Google Cloud',
+            date: 'August 2024',
+            skills: ['Google Cloud', 'Cloud Architecture', 'DevOps', 'Security']
         }
     ];
 
