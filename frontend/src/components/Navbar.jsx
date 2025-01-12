@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaChevronDown } from 'react-icons/fa'; // Dropdown icon
+import './Navbar.css';
 
 const Navbar = () => {
     const [projectsOpen, setProjectsOpen] = useState(false);
@@ -14,6 +15,7 @@ const Navbar = () => {
             <div className="navbar-links">
                 <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
+                <Link to="/presentation" className="nav-link">Documentation</Link>
                 <Link to="/certifications">Certifications</Link>
                 <Link to="/blog">Blog</Link>
                 <Link to="/contact">Contact Me</Link>

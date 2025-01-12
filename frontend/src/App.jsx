@@ -10,6 +10,7 @@ import Projects from './pages/Projects';
 import ArchitectureProjects from './pages/ArchitectureProjects';
 import Certifications from './pages/Certifications';
 import Blog from './pages/Blog';
+import Presentation from './pages/Presentation';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/projects/architecture" element={<ArchitectureProjects />} />
                     <Route path="/certifications" element={<Certifications />} />
+                    <Route path="/presentation" element={<Presentation />} />
                     <Route path="/blog" element={<Blog />} />
                 </Routes>
             </div>
