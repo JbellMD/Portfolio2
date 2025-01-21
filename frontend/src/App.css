@@ -11,6 +11,10 @@
 
 /* Set Global Background Color */
 body {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: var(--primary-bg);
   color: var(--text-primary);
   margin: 0;

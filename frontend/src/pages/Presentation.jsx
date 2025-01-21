@@ -129,6 +129,16 @@ function Presentation() {
                         '.NET Core for enterprise-grade backend solutions.',
                         'Database design using SQL and NoSQL solutions like MongoDB or PostgreSQL.'
                     ]
+                },
+                {
+                    title: 'AI/ML Stack',
+                    content: 'Server-side development for robust and scalable applications.',
+                    details: [
+                        'Node.js with Express for REST APIs.',
+                        'Django with Python for advanced data processing.',
+                        '.NET Core for enterprise-grade backend solutions.',
+                        'Database design using SQL and NoSQL solutions like MongoDB or PostgreSQL.'
+                    ]
                 }
             ]
         },
@@ -136,6 +146,26 @@ function Presentation() {
             icon: <FiSmartphone />,
             title: 'Mobile Development',
             sections: [
+                {
+                    title: 'Cross-Platform Development',
+                    content: 'Create mobile applications compatible with Android and iOS.',
+                    details: [
+                        'React Native for cross-platform development.',
+                        'Flutter for beautiful and high-performance apps.',
+                        'Integration with native device APIs (e.g., camera, GPS).',
+                        'Push notifications for real-time updates and user engagement.'
+                    ]
+                },
+                {
+                    title: 'Cross-Platform Development',
+                    content: 'Create mobile applications compatible with Android and iOS.',
+                    details: [
+                        'React Native for cross-platform development.',
+                        'Flutter for beautiful and high-performance apps.',
+                        'Integration with native device APIs (e.g., camera, GPS).',
+                        'Push notifications for real-time updates and user engagement.'
+                    ]
+                },
                 {
                     title: 'Cross-Platform Development',
                     content: 'Create mobile applications compatible with Android and iOS.',
@@ -160,6 +190,16 @@ function Presentation() {
                         'Jenkins for robust CI/CD pipelines.',
                         'Containerization with Docker for consistent deployments.',
                         'Kubernetes for orchestration and scaling of microservices.'
+                    ]
+                },
+                {
+                    title: 'Monitoring and Maintenance',
+                    content: 'Ensure application reliability with proactive monitoring.',
+                    details: [
+                        'CloudWatch for system metrics and alerts.',
+                        'Application Insights for performance tracking.',
+                        'Centralized log analytics with ELK Stack.',
+                        'Automated alerting and incident management.'
                     ]
                 },
                 {
