@@ -14,7 +14,7 @@ const metrics = [
       {
         title: 'Throughput',
         value: '10x',
-        description: 'Increase in system throughput capacity'
+        description: 'Increase in system throughput capacity compared to legacy systems'
       }
     ]
   },
@@ -24,12 +24,12 @@ const metrics = [
       {
         title: 'Uptime',
         value: '99.99%',
-        description: 'System availability achieved'
+        description: 'System availability achieved over a period of time'
       },
       {
         title: 'Recovery',
         value: '<5min',
-        description: 'Average time to recover from failures'
+        description: 'Average time to recover from failures for all services'
       }
     ]
   },
@@ -39,12 +39,12 @@ const metrics = [
       {
         title: 'Load Handling',
         value: '5M+',
-        description: 'Concurrent users supported'
+        description: 'Concurrent users supported based on usage patterns'
       },
       {
         title: 'Auto-scaling',
         value: '100%',
-        description: 'Automated resource scaling'
+        description: 'Automated resource scaling based on demand'
       }
     ]
   },
@@ -54,12 +54,12 @@ const metrics = [
       {
         title: 'Infrastructure',
         value: '-40%',
-        description: 'Reduction in infrastructure costs'
+        description: 'Reduction in infrastructure costs across all services'
       },
       {
         title: 'Maintenance',
         value: '-50%',
-        description: 'Reduction in maintenance effort'
+        description: 'Reduction in maintenance effort across all services'
       }
     ]
   }

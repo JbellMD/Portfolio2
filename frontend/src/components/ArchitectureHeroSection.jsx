@@ -12,7 +12,7 @@ const ArchitectureHeroSection = () => {
         </h1>
         <p className="hero-description">
           Crafting scalable, resilient, and efficient software architectures that drive modern applications.
-          Specializing in distributed systems, microservices, and cloud-native solutions.
+          Specializing in distributed systems, microservices, and cloud-native solutions. Expert in AWS, Azure, and Google Cloud.
         </p>
         <div className="hero-stats">
           <div className="stat-item">

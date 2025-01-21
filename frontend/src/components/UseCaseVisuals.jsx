@@ -7,13 +7,13 @@ const useCases = [
     title: 'Microservices Architecture',
     description: 'Designing and implementing scalable microservices architectures using Docker, Kubernetes, and cloud-native technologies.',
     icon: '',
-    techStack: ['Docker', 'Kubernetes', 'AWS', 'Microservices']
+    techStack: ['Docker', 'Kubernetes', 'AWS', 'Microservices, REST APIs']
   },
   {
     title: 'Cloud Solutions',
     description: 'Building robust cloud infrastructure and deploying applications on AWS, Azure, and Google Cloud Platform.',
     icon: '',
-    techStack: ['AWS', 'Azure', 'GCP', 'Terraform']
+    techStack: ['AWS', 'Azure', 'GCP', 'Terraform', 'CloudFormation']
   },
   {
     title: 'System Integration',
