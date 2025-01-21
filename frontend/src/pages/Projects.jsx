@@ -31,6 +31,13 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/weather-dashboard'
     },
     {
+        title: 'Pet Shelter Application',
+        description: 'This project is a AWS app that deployable with AWS Amplify and features backend logic with DynamoDB as a DB and features a user-friendly interface .',
+        imageUrl: '/petshelter.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://little-guy-ai.web.app/',
+        codeLink: 'https://github.com/JbellMD/pet-shelter'
+    },
+    {
         title: 'AI Fitness Tracker v1',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png', // Replace with the actual path to a screenshot
