@@ -3,23 +3,23 @@ import './Testimonials.css';
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    role: "CTO, TechVision Inc.",
-    content: "Jonathan's implementation of microservices design patterns significantly improved our system's scalability and reduced deployment time by 70%.",
+    name: "Talha Sabri",
+    role: "CTO, Reality AI",
+    content: "Jonathan's unique blend of software developerment and cloud solutions expertise made our project a success. The implementation of microservices design patterns significantly improved our system's scalability and reliability.",
     image: "/testimonial1.svg",
     rating: 5
   },
   {
-    name: "Michael Rodriguez",
-    role: "Lead Developer, CloudScale",
-    content: "The cloud migration strategy was brilliant. Zero downtime migration with 40% cost reduction in cloud resources.",
+    name: "Sara Al-Hassan",
+    role: "Lead Developer, AWS",
+    content: "I have had the pleasure of working with Jonathan on a cloud migration project. The cloud migration strategy was brilliant, zero downtime migration with 40% cost reduction in cloud resources, his collaboration and communication were exceptional.",
     image: "/testimonial2.svg",
     rating: 5
   },
   {
     name: "Emma Thompson",
     role: "Product Manager, DataFlow",
-    content: "Jonathan's expertise in real-time analytics helped us process data 10x faster with elegant, future-proof solutions.",
+    content: "Jonathan's ability to leverage his expertise in AWS and Python for real-time analytics helped us process data 10x faster with elegant, future-proof solutions. He demonstrates a deep understanding of the industry and his ability to approach complex problems with a creative approach.",
     image: "/testimonial3.svg",
     rating: 5
   }
