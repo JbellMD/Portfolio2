@@ -21,20 +21,20 @@ const Certifications = () => {
             skills: ['AI', 'Machine Learning', 'Python', 'MLOps']
         },
         {
-            title: 'AWS Cloud Consultant Professional Certificate',
-            fileUrl: './awsctc.pdf',
-            description: 'Mastered making informed decisions about when and how to apply key AWS Services for compute, storage, database, networking, monitoring, and security.',
-            issuer: 'AWS',
-            date: 'June 2024',
-            skills: ['AWS', 'Cloud Architecture', 'Security', 'Networking']
-        },
-        {
             title: 'AWS Cloud Solutions Architect Professional Certificate',
             fileUrl: './awssa.pdf',
             description: 'Designed architectural solutions, whether designing for cost, performance, and/or operational excellence, to address common business challenges.',
             issuer: 'AWS',
             date: 'May 2024',
             skills: ['Cloud Architecture', 'AWS', 'Solution Design', 'Cost Optimization']
+        },
+        {
+            title: 'AWS Cloud Consultant Professional Certificate',
+            fileUrl: './awsctc.pdf',
+            description: 'Mastered making informed decisions about when and how to apply key AWS Services for compute, storage, database, networking, monitoring, and security.',
+            issuer: 'AWS',
+            date: 'June 2024',
+            skills: ['AWS', 'Cloud Architecture', 'Security', 'Networking']
         },
         {
             title: 'Architecting on Google Compute Engine',
