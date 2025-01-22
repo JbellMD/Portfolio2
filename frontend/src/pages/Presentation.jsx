@@ -1,8 +1,44 @@
 // Presentation.jsx
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FiCode, FiCloud, FiMonitor, FiSmartphone, FiSettings } from 'react-icons/fi';
 import './Presentation.css';
+
+const TabButton = ({ icon, title, isActive, onClick }) => (
+    <motion.button
+        className={`tab-button ${isActive ? 'active' : ''}`}
+        onClick={onClick}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+    >
+        <span className="tab-icon">{icon}</span>
+        {title}
+    </motion.button>
+);
+
+const SectionCard = ({ title, content, details }) => (
+    <motion.div
+        className="section-card"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+    >
+        <h2>{title}</h2>
+        <p>{content}</p>
+        <ul>
+            {details.map((detail, index) => (
+                <motion.li
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                >
+                    {detail}
+                </motion.li>
+            ))}
+        </ul>
+    </motion.div>
+);
 
 function Presentation() {
     const [activeTab, setActiveTab] = useState('api');
@@ -223,58 +259,45 @@ function Presentation() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="presentation-header">
+            <motion.div 
+                className="documentation-header"
+                initial={{ y: -20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.2 }}
+            >
                 <h1>Technical Documentation</h1>
                 <p>Comprehensive guide to my technical expertise and implementations</p>
-            </div>
-            
+            </motion.div>
+
             <div className="tab-container">
-                {Object.keys(categories).map(key => (
-                    <motion.button
+                {Object.entries(categories).map(([key, category]) => (
+                    <TabButton
                         key={key}
-                        className={`tab-button ${activeTab === key ? 'active' : ''}`}
+                        icon={category.icon}
+                        title={category.title}
+                        isActive={activeTab === key}
                         onClick={() => setActiveTab(key)}
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        <span className="tab-icon">{categories[key].icon}</span>
-                        {categories[key].title}
-                    </motion.button>
+                    />
                 ))}
             </div>
 
-            <motion.div 
-                className="content-container"
-                key={activeTab}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
-            >
-                {categories[activeTab].sections.map((section, index) => (
-                    <motion.div 
-                        key={index} 
-                        className="section-card"
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: index * 0.1 }}
-                    >
-                        <h2>{section.title}</h2>
-                        <p>{section.content}</p>
-                        <ul>
-                            {section.details.map((detail, idx) => (
-                                <motion.li 
-                                    key={idx}
-                                    initial={{ opacity: 0, x: -20 }}
-                                    animate={{ opacity: 1, x: 0 }}
-                                    transition={{ delay: (index * 0.1) + (idx * 0.05) }}
-                                >
-                                    {detail}
-                                </motion.li>
-                            ))}
-                        </ul>
-                    </motion.div>
-                ))}
-            </motion.div>
+            <AnimatePresence mode="wait">
+                <motion.div
+                    key={activeTab}
+                    className="content-container"
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -20 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    {categories[activeTab].sections.map((section, index) => (
+                        <SectionCard
+                            key={index}
+                            {...section}
+                        />
+                    ))}
+                </motion.div>
+            </AnimatePresence>
         </motion.div>
     );
 }
