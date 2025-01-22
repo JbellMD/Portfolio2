@@ -263,7 +263,7 @@ body::before {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('./cloud.jpg');
+  background-image: url('./background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
