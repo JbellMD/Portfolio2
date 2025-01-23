@@ -17,8 +17,8 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Emma Thompson",
-    role: "Product Manager, DataFlow",
+    name: "Raymond Hernandez",
+    role: "Senior Software Engineer, Apple",
     content: "Jonathan's ability to leverage his expertise in AWS and Python for real-time analytics helped us process data 10x faster with elegant, future-proof solutions. He demonstrates a deep understanding of the industry and his ability to approach complex problems with a creative approach.",
     image: "/testimonial3.svg",
     rating: 5

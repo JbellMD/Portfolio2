@@ -18,9 +18,6 @@ const AboutMe = () => {
                 transition={fadeIn.transition}
             >
                 <h1 className="section-title">My Skills</h1>
-                <p className="section-subtitle">
-                    Throughout my journey, I've acquired a wide array of skills and certifications that I am proud to showcase:
-                </p>
                 <SkillsCarousel />
             </motion.section>
 

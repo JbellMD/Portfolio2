@@ -989,3 +989,91 @@ body::before {
     padding: 1.5rem;
   }
 }
+
+/* Global Page Headers */
+.page-header,
+.documentation-header,
+.blog-header,
+.certifications-header,
+.contact-header,
+.about-header {
+    margin-bottom: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+.page-header h1,
+.documentation-header h1,
+.blog-header h1,
+.certifications-header h1,
+.contact-header h1,
+.about-header h1,
+.section-title {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    background: linear-gradient(120deg, var(--text-primary), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(100, 227, 255, 0.2);
+    letter-spacing: 0.5px;
+}
+
+.page-header p,
+.documentation-header p,
+.blog-header p,
+.certifications-header p,
+.contact-header p,
+.about-header p,
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Add subtle animation for headers */
+.page-header,
+.documentation-header,
+.blog-header,
+.certifications-header,
+.contact-header,
+.about-header {
+    animation: fadeInDown 0.8s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-header h1,
+    .documentation-header h1,
+    .blog-header h1,
+    .certifications-header h1,
+    .contact-header h1,
+    .about-header h1,
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .page-header p,
+    .documentation-header p,
+    .blog-header p,
+    .certifications-header p,
+    .contact-header p,
+    .about-header p,
+    .section-subtitle {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}

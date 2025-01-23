@@ -11,6 +11,12 @@ const Blog = () => {
             tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
         },
         {
+            date: "December 2024",
+            title: "Microsoft Azure - Training",
+            content: "I finished up my third semester at the AWS Cloud Institute! This coursework has prepared me to become a successful Cloud Developer. I'm now looking forward to deepening my understanding of backend and cloud technologies as I prepare for more advanced projects.",
+            tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
+        },
+        {
             date: "October 2024",
             title: "AWS Cloud Institute Journey - Semester 3",
             content: "Excited to announce that I've begun my third semester at the AWS Cloud Institute! After completing my IBM Full Stack certification, I have much more confidence starting this new semester. The curriculum is comprehensive training in AWS services, cloud architecture, and best practices. I'm particularly looking forward to learning about AWS Lambda, EC2, and S3 services. This training will complement my full stack skills and help me build more scalable and robust applications.",
