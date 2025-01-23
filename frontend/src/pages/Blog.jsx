@@ -13,8 +13,8 @@ const Blog = () => {
         {
             date: "December 2024",
             title: "Microsoft Azure - Training",
-            content: "I finished up my third semester at the AWS Cloud Institute! This coursework has prepared me to become a successful Cloud Developer. I'm now looking forward to deepening my understanding of backend and cloud technologies as I prepare for more advanced projects.",
-            tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
+            content: "I finished up my third semester at the AWS Cloud Institute! I'm now looking forward to deepening my understanding of backend and cloud technologies as I prepare for more advanced projects. Microsoft Azure has been a game-changer for me, and I'm excited to continue my journey in this cloud. It is very similar to AWS so the learning curve is not as steep, it is just a different platform to learn and master administrating.",
+            tags: ["Certification", "Cloud Developer", "Azure", "Microsoft"]
         },
         {
             date: "October 2024",
