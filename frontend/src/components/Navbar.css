@@ -5,42 +5,49 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #ffffff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    background: rgba(10, 25, 47, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
+    border-bottom: 1px solid rgba(100, 227, 255, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .navbar-logo a {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2563eb;
+    color: var(--accent-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .navbar-logo a:hover {
-    color: #1e40af;
+    color: var(--text-primary);
 }
 
 .navbar-links {
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin-right: 1rem;
 }
 
 .navbar-links a {
     text-decoration: none;
-    color: #374151;
+    color: var(--text-primary);
     font-weight: 500;
     padding: 0.5rem 0;
     transition: color 0.3s ease;
     position: relative;
+    font-size: 0.95rem;
 }
 
 .navbar-links a:hover {
-    color: #2563eb;
+    color: var(--accent-color);
 }
 
 .navbar-links a::after {
@@ -50,7 +57,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #2563eb;
+    background-color: var(--accent-color);
     transition: width 0.3s ease;
 }
 
@@ -63,51 +70,85 @@
     cursor: pointer;
 }
 
+.navbar-projects::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: transparent;
+}
+
 .navbar-projects span {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #374151;
+    color: var(--text-primary);
     font-weight: 500;
     padding: 0.5rem 0;
+    font-size: 0.95rem;
 }
 
 .navbar-projects:hover span {
-    color: #2563eb;
+    color: var(--accent-color);
 }
 
 .dropdown-menu {
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: white;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    background: rgba(17, 34, 64, 0.95);
+    backdrop-filter: blur(10px);
     border-radius: 8px;
     padding: 0.5rem 0;
-    min-width: 200px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(100, 227, 255, 0.1);
     animation: dropdownFade 0.3s ease;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-projects:hover .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+}
+
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: transparent;
 }
 
 .dropdown-menu a {
     display: block;
     padding: 0.75rem 1.5rem;
-    white-space: nowrap;
-    transition: background-color 0.3s ease;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
 }
 
 .dropdown-menu a:hover {
-    background-color: #f3f4f6;
+    background: rgba(100, 227, 255, 0.1);
+    color: var(--accent-color);
 }
 
 @keyframes dropdownFade {
     from {
         opacity: 0;
-        transform: translateX(-50%) translateY(-10px);
+        transform: translateY(-10px);
     }
     to {
         opacity: 1;
-        transform: translateX(-50%) translateY(0);
+        transform: translateY(0);
     }
 }
 
@@ -126,6 +167,7 @@
         flex-direction: column;
         width: 100%;
         gap: 1rem;
+        margin-right: 0;
     }
 
     .navbar-projects {
@@ -145,5 +187,22 @@
     .dropdown-menu a {
         padding: 0.5rem 1rem;
         text-align: center;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar-links {
+        gap: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .dropdown-menu {
+        right: 0;
+        min-width: 160px;
     }
 }
