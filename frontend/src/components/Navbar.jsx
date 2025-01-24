@@ -12,13 +12,18 @@ const Navbar = () => {
         if (projectsOpen) setProjectsOpen(false);
     };
 
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+        setProjectsOpen(false);
+    };
+
     return (
         <nav className="fixed top-0 left-0 w-full bg-[rgba(10,25,47,0.95)] backdrop-blur-md z-50 border-b border-[rgba(100,227,255,0.1)] shadow-lg">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <Link to="/" className="text-[var(--accent-color)] font-bold text-xl hover:text-[var(--text-primary)] transition-colors">
+                        <Link to="/" className="text-[var(--accent-color)] font-bold text-xl hover:text-[var(--text-primary)] transition-colors" onClick={closeMenu}>
                             My Portfolio
                         </Link>
                     </div>
@@ -69,12 +74,12 @@ const Navbar = () => {
                 {/* Mobile menu */}
                 <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
                     <div className="px-2 pt-2 pb-3 space-y-1">
-                        <Link to="/" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">Home</Link>
-                        <Link to="/about" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">About Me</Link>
-                        <Link to="/presentation" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">Documentation</Link>
-                        <Link to="/certifications" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">Certifications</Link>
-                        <Link to="/blog" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">Blog</Link>
-                        <Link to="/contact" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">Contact Me</Link>
+                        <Link to="/" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Home</Link>
+                        <Link to="/about" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>About Me</Link>
+                        <Link to="/presentation" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Documentation</Link>
+                        <Link to="/certifications" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Certifications</Link>
+                        <Link to="/blog" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Blog</Link>
+                        <Link to="/contact" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Contact Me</Link>
                         
                         {/* Mobile Projects dropdown */}
                         <div>
@@ -86,10 +91,10 @@ const Navbar = () => {
                             </button>
                             {projectsOpen && (
                                 <div className="pl-4">
-                                    <Link to="/projects" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">
+                                    <Link to="/projects" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>
                                         Code Projects
                                     </Link>
-                                    <Link to="/projects/architecture" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors">
+                                    <Link to="/projects/architecture" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>
                                         Architecture Projects
                                     </Link>
                                 </div>
