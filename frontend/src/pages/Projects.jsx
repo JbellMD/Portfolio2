@@ -4,21 +4,21 @@ import ProjectCard from '../components/ProjectCard';
 const projectData = [
     {
         title: 'Little Guy AI - Platform',
-        description: 'This project is a Next.js app that serves as a platform for users to generate content for a platform. It features a user-friendly interface and a custom content generation system.',
+        description: 'Next.js app that serves as a platform for users to generate content for a platform. It features a user-friendly interface and a custom content generation system.',
         imageUrl: '/little.png', // Replace with the actual path to a screenshot
         demoLink: 'https://little-guy-ai.web.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
     {
         title: 'Music Player - Code Challenge',
-        description: 'Blazor WebAssembly - .NET 6 SPA framework with MudBlazor - Material Design component library TailwindCSS - Utility-first CSS framework JavaScript/TypeScript for interop functions ASP.NET Core 6 Web API Entity Framework Core for data access SQL Server database',
+        description: 'Blazor WebAssembly C# application with CSS framework JavaScript/TypeScript for interop functions ASP.NET Core 6 Web API Entity Framework Core for data access SQL Server database',
         imageUrl: '/music.png', // Replace with the actual path to a screenshot
         demoLink: 'https://web-production-e4671.up.railway.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
         title: 'e-Commerce Wesbite: Plants',
-        description: 'This is my React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
+        description: 'React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
         imageUrl: '/plants.png',
         demoLink: 'https://jbellmd.github.io/ReactApp/',
         codeLink: 'https://github.com/JbellMD/ReactApp/'
@@ -77,6 +77,7 @@ const projectData = [
 
 const Projects = () => (
     <div className="projects">
+        <h1>Code Projects</h1>
         <div className="project-grid">
             {projectData.map((project, index) => (
                 <ProjectCard key={index} {...project} />
@@ -86,4 +87,3 @@ const Projects = () => (
 );
 
 export default Projects;
-

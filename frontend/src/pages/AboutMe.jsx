@@ -70,8 +70,23 @@ const AboutMe = () => {
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
+                            <h3>First Language: JavaScript - 2023</h3>
+                            <p>Relearned JavaScript from scratch and React framework for frontend development</p>
+                        </div>
+                        <div className="timeline-item">
+                            <div className="timeline-marker"></div>
+                            <h3>Second Language: TypeScript - 2023</h3>
+                            <p>Learning TypeScript for backend development to create a full-stack application</p>
+                        </div>
+                        <div className="timeline-item">
+                            <div className="timeline-marker"></div>
                             <h3>AWS Cloud Institute - 2024</h3>
                             <p>Enrolled in AWS Cloud Institute to become a Cloud Developer</p>
+                        </div>
+                        <div className="timeline-item">
+                            <div className="timeline-marker"></div>
+                            <h3>Third Language: Python - 2024</h3>
+                            <p>Learning Python for AI/ML, scripting, and development, using Django</p>
                         </div>
                         <div className="timeline-item">
                             <div className="timeline-marker"></div>
