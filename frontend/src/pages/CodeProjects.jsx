@@ -10,10 +10,10 @@ const projectData = [
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker'
     },
     {
-        title: 'AI Fitness Application v3',
-        description: 'Next.JS app uses interactive frontends with Typescript to provide the latest version of fitness and nutrition application',
-        imageUrl: '/core.png', // Replace with the actual path to a screenshot
-        demoLink: 'https://coreflow.vercel.app/',
+        title: 'Music Player - Code Challenge',
+        description: 'Blazor WebAssembly - .NET 6 SPA framework with MudBlazor - Material Design component library TailwindCSS - Utility-first CSS framework JavaScript/TypeScript for interop functions ASP.NET Core 6 Web API Entity Framework Core for data access SQL Server database',
+        imageUrl: '/music.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://web-production-e4671.up.railway.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
@@ -22,6 +22,13 @@ const projectData = [
         imageUrl: '/plants.png',
         demoLink: 'https://jbellmd.github.io/ReactApp/',
         codeLink: 'https://github.com/JbellMD/ReactApp/'
+    },
+    {
+        title: 'AI Fitness Application v3',
+        description: 'Next.JS app uses interactive frontends with Typescript to provide the latest version of fitness and nutrition application',
+        imageUrl: '/core.png', // Replace with the actual path to a screenshot
+        demoLink: 'https://coreflow.vercel.app/',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-next'
     },
     {
         title: 'Weather Dashboard',

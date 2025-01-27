@@ -27,7 +27,10 @@ const ProjectCard = ({ title, description, imageUrl, demoLink, codeLink }) => (
                 <span className="tech-tag">Firebase</span>
                 <span className="tech-tag">TypeScript</span>
                 <span className="tech-tag">Tailwind CSS</span>
-                <span className="tech-tag">Node.js</span>
+                <span className="tech-tag">Blazor WebAssembly .NET 6</span>
+                <span className="tech-tag">ASP.NET Core 6 Web API</span>
+                <span className="tech-tag">Entity Framework Core</span>
+                <span className="tech-tag">SQL Server DB</span>
             </div>
         </div>
     </div>
