@@ -77,7 +77,6 @@ const projectData = [
 
 const Projects = () => (
     <div className="projects">
-        <h1>Code Projects</h1>
         <div className="project-grid">
             {projectData.map((project, index) => (
                 <ProjectCard key={index} {...project} />
