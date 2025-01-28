@@ -49,7 +49,7 @@ const projectData = [
         imageUrl: '/fitness.png',
         demoLink: 'https://ai-fitness-tracker.web.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
-        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Cloud Native', 'Node.js']
+        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Cloud Native', 'Node.js', 'Auth0', 'OpenAI']
     },
     {
         title: 'Pet Shelter - AWS Application',
@@ -57,7 +57,7 @@ const projectData = [
         imageUrl: '/petshelter.png',
         demoLink: 'https://little-guy-ai.web.app/products',
         codeLink: 'https://github.com/JbellMD/pet-shelter',
-        techStack: ['AWS', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Python', 'Serverless']
+        techStack: ['AWS', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Python', 'Serverless', 'Lambda', 'DynamoDB']
     },
     {
         title: 'AI Fitness Application v2',
@@ -81,7 +81,7 @@ const projectData = [
         imageUrl: '/car.png',
         demoLink: 'https://jbellcardealer.netlify.app/dealers',
         codeLink: 'https://github.com/JbellMD/xrwvm-fullstack_developer_capstone',
-        techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Django', 'Supabase']
+        techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Django', 'Supabase', 'Postgres', 'Cloud Native']
     },
     {
         title: 'AI Fitness Insights v2',
@@ -89,7 +89,7 @@ const projectData = [
         imageUrl: '/insight.png',
         demoLink: 'https://ai-ftiness-tracker.netlify.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
-        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS']
+        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Cloud Native', 'Node.js', 'Auth0', 'OpenAI']
     },
 ];
 
