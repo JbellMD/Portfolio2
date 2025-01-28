@@ -1,41 +1,61 @@
 // src/components/ProjectCard.jsx
 import React from 'react';
 
-const ProjectCard = ({ title, description, imageUrl, demoLink, codeLink }) => (
-    <div className="project-card">
-        <div className="project-image-container">
-            <img src={imageUrl} alt={title} className="project-image" />
-            <div className="project-overlay">
-                <div className="project-links">
-                    <a href={demoLink} target="_blank" rel="noopener noreferrer" className="project-button">
-                        <span className="button-icon">▶</span>
-                        Live Demo
-                    </a>
-                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className="project-button">
-                        <span className="button-icon">⌨</span>
-                        Source Code
-                    </a>
+const ProjectCard = ({ 
+    title, 
+    description, 
+    imageUrl, 
+    demoLink, 
+    codeLink, 
+    techStack, 
+    onHover,
+    getTechTagClassName 
+}) => {
+    const handleMouseEnter = () => {
+        onHover(techStack);
+    };
+
+    const handleMouseLeave = () => {
+        onHover(null);
+    };
+
+    return (
+        <div 
+            className="project-card"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
+            <div className="project-image-container">
+                <img src={imageUrl} alt={title} className="project-image" />
+                <div className="project-overlay">
+                    <div className="project-links">
+                        <a href={demoLink} target="_blank" rel="noopener noreferrer" className="project-button">
+                            <span className="button-icon">▶</span>
+                            Live Demo
+                        </a>
+                        <a href={codeLink} target="_blank" rel="noopener noreferrer" className="project-button">
+                            <span className="button-icon">⌨</span>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className="project-info">
+                <h3 className="project-title">{title}</h3>
+                <p className="project-description">{description}</p>
+                <div className="project-tech-stack">
+                    {techStack.map((tech, index) => (
+                        <span 
+                            key={index} 
+                            className={getTechTagClassName(tech)}
+                        >
+                            {tech}
+                        </span>
+                    ))}
                 </div>
             </div>
         </div>
-        <div className="project-info">
-            <h3 className="project-title">{title}</h3>
-            <p className="project-description">{description}</p>
-            <div className="project-tech-stack">
-                <span className="tech-tag">React</span>
-                <span className="tech-tag">Next.js</span>
-                <span className="tech-tag">Firebase</span>
-                <span className="tech-tag">TypeScript</span>
-                <span className="tech-tag">Tailwind CSS</span>
-                <span className="tech-tag">Python</span>
-                <span className="tech-tag">Django</span>
-                <span className="tech-tag">Blazor WebAssembly .NET 6</span>
-                <span className="tech-tag">ASP.NET Core 6 Web API</span>
-                <span className="tech-tag">Entity Framework Core</span>
-                <span className="tech-tag">SQL Server DB</span>
-            </div>
-        </div>
-    </div>
-);
+    );
+};
 
 export default ProjectCard;
