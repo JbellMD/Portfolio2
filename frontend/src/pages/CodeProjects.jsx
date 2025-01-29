@@ -47,7 +47,7 @@ const projectData = [
         title: 'e-Commerce Wesbite: ArtHub',
         description: 'React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
         imageUrl: '/art.png',
-        demoLink: 'https://jbellmd.github.io/',
+        demoLink: 'https://jbellmd.github.io/ArtHub/',
         codeLink: 'https://github.com/JbellMD/ArtHub',
         techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'Netlify', 'Node.js', 'Cloud Native']
     },
