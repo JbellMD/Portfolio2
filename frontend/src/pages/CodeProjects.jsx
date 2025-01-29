@@ -44,12 +44,12 @@ const projectData = [
         techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'REST API', 'Cloud Native']
     },
     {
-        title: 'AI Fitness Tracker v1',
-        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
-        imageUrl: '/fitness.png',
-        demoLink: 'https://ai-fitness-tracker.web.app/',
-        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
-        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Cloud Native', 'Node.js', 'Auth0', 'OpenAI']
+        title: 'e-Commerce Wesbite: ArtHub',
+        description: 'React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
+        imageUrl: '/art.png',
+        demoLink: 'https://jbellmd.github.io/',
+        codeLink: 'https://github.com/JbellMD/ArtHub',
+        techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'Netlify', 'Node.js', 'Cloud Native']
     },
     {
         title: 'Pet Shelter - AWS Application',
@@ -58,6 +58,14 @@ const projectData = [
         demoLink: 'https://little-guy-ai.web.app/products',
         codeLink: 'https://github.com/JbellMD/pet-shelter',
         techStack: ['AWS', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Python', 'Serverless', 'Lambda', 'DynamoDB']
+    },
+    {
+        title: 'AI Fitness Tracker v1',
+        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
+        imageUrl: '/fitness.png',
+        demoLink: 'https://ai-fitness-tracker.web.app/',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
+        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Cloud Native', 'Node.js', 'Auth0', 'OpenAI']
     },
     {
         title: 'AI Fitness Application v2',

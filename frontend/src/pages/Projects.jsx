@@ -44,6 +44,14 @@ const projectData = [
         techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'REST API', 'Cloud Native']
     },
     {
+        title: 'e-Commerce Wesbite: ArtHub',
+        description: 'React powered e-Commerce wesbite to demonstrate the solution to a number of user stories of feature additions to their application',
+        imageUrl: '/art.png',
+        demoLink: 'https://jbellmd.github.io/',
+        codeLink: 'https://github.com/JbellMD/ArtHub',
+        techStack: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'Netlify', 'Node.js', 'Cloud Native']
+    },
+    {
         title: 'AI Fitness Tracker v1',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png',
