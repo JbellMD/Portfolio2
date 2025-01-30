@@ -41,6 +41,12 @@ const Blog = () => {
             tags: ["AWS", "Cloud Computing", "Professional Development", "Learning"]
         },
         {
+            date: "May 2024",
+            title: "Multi-Cloud Learning Path Continued",
+            content: "I've intensified my learning with Coursera courses, making good on my promise, covering cloud platforms from AWS, Microsoft, Google, and IBM. This multi-cloud approach helps me understand the nuances of each service.",
+            tags: ["Cloud Platforms", "Coursera", "Professional Development"]
+        },
+        {
             date: "April 2024",
             title: "Starting AWS Cloud Institute Journey - Semester 1",
             content: "Exciting news: I've started the AWS Cloud Institute program full-time, committing myself to a year-long journey to become a certified Cloud Developer. The curriculum is challenging but engaging, with a focus on cloud infrastructure, serverless applications, and security fundamentals.",
