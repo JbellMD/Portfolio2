@@ -13,7 +13,7 @@ const Blog = () => {
         {
             date: "December 2024",
             title: "Microsoft Azure - Training",
-            content: "I finished up my third semester at the AWS Cloud Institute! I'm now looking forward to deepening my understanding of backend and cloud technologies as I prepare for more advanced projects. Microsoft Azure has been a game-changer for me, and I'm excited to continue my journey in this cloud. It is very similar to AWS so the learning curve is not as steep, it is just a different platform to learn and master administrating.",
+            content: "I have completed four courses on Microsoft Azure and am now ready to start my training. This training will help me become a proficient Azure developer and prepare me for future projects that leverage Microsoft Azure for multi-tenant applications. I have the fundamentals of Azure in place and am excited to apply them to real-world projects. My goal is to become a certified Azure Solutions Architect.",
             tags: ["Certification", "Cloud Developer", "Azure", "Microsoft"]
         },
         {
@@ -43,7 +43,7 @@ const Blog = () => {
         {
             date: "May 2024",
             title: "Multi-Cloud Learning Path Continued",
-            content: "I've intensified my learning with Coursera courses, making good on my promise, covering cloud platforms from AWS, Microsoft, Google, and IBM. This multi-cloud approach helps me understand the nuances of each service.",
+            content: "I have gained an overall understanding of cloud platforms and their services. I have noticed that the services they offer are very similar, but with different names. I have also learned about the differences between cloud providers, such as AWS, Azure, and Google Cloud. I understand cloud concepts much more having explored Microsoft Azure, IBM Cloud, and Google Cloud. They offer a free tier which is very helpful in building a basic application.",
             tags: ["Cloud Platforms", "Coursera", "Professional Development"]
         },
         {
