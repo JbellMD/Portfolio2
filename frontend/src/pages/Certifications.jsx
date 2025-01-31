@@ -5,6 +5,14 @@ import { FaAward, FaExternalLinkAlt } from 'react-icons/fa';
 const Certifications = () => {
     const certifications = [
         {
+            title: 'AWS Cloud Institute: Cloud Application Developer',
+            fileUrl: './ibmdev.pdf',
+            description: 'Build, deploy, test, run, and manage full stack cloud native applications. GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.',
+            issuer: 'AWS',
+            date: 'March 2025',
+            skills: ['Full Stack', 'Cloud Native', 'DevOps', 'Microservices', 'AWS']
+        },
+        {
             title: 'IBM Full Stack Software Developer Professional Certificate',
             fileUrl: './ibmdev.pdf',
             description: 'Build, deploy, test, run, and manage full stack cloud native applications. GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.',
