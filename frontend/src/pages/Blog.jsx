@@ -5,7 +5,7 @@ import { FaCalendar, FaBookmark } from 'react-icons/fa';
 const Blog = () => {
     const entries = [
         {
-            date: "January 2025",
+            date: "March 2025",
             title: "Milestone: Graduated from AWS Cloud Institute",
             content: "This month was a milestone, as I graduated from the AWS Cloud Institute! This coursework has prepared me to become a successful Cloud Developer. This certification has not only validated my skills but also given me confidence in my ability to navigate the full stack. I'm now looking forward to deepening my understanding of backend and cloud technologies as I prepare for more advanced projects.",
             tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
