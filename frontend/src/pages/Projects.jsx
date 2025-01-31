@@ -60,6 +60,14 @@ const projectData = [
         techStack: ['AWS', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Python', 'Serverless', 'Lambda', 'DynamoDB']
     },
     {
+        title: 'BallRunner Game',
+        description: 'BallRunner is a 2D game developed using JavaScript and Phaser.io hosted on GitHub Pages',
+        imageUrl: '/ball.png',
+        demoLink: 'https://jbellmd.github.io/BallRunner/',
+        codeLink: 'https://github.com/JbellMD/BallRunner',
+        techStack: ['JavaScript', 'Phaser.io', 'Cloud Native', 'GitHub Pages', 'GitHub', 'CI/CD', 'Automation']
+    },
+    {
         title: 'AI Fitness Tracker v1',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png',
