@@ -5,19 +5,19 @@ import './UseCaseVisuals.css';
 const useCases = [
   {
     title: 'Microservices Architecture',
-    description: 'Designing and implementing scalable microservices architectures using Docker, Kubernetes, and cloud-native technologies.',
+    description: 'Designing and implementing scalable microservices architectures using Docker, Kubernetes, and cloud-native technologies. Realiably testing and deploying microservices to AWS, Azure, and Google Cloud Platform.',
     icon: '',
     techStack: ['Docker', 'Kubernetes', 'AWS', 'Microservices, REST APIs']
   },
   {
     title: 'Cloud Solutions',
-    description: 'Building robust cloud infrastructure and deploying applications on AWS, Azure, and Google Cloud Platform.',
+    description: 'Building robust cloud infrastructure and deploying applications on AWS, Azure, and Google Cloud Platform. Specializing in serverless, containerized, and cloud-native solutions.',
     icon: '',
     techStack: ['AWS', 'Azure', 'GCP', 'Terraform', 'CloudFormation']
   },
   {
     title: 'System Integration',
-    description: 'Integrating complex systems and APIs to create seamless data flow and communication between different components.',
+    description: 'Integrating complex systems and APIs to create seamless data flow and communication between different components. Experienced in integrating third-party APIs and integrating with external systems.',
     icon: '',
     techStack: ['REST APIs', 'GraphQL', 'Message Queues', 'Event-Driven']
   },
