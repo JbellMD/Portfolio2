@@ -9,8 +9,8 @@ const projects = [
     image: '/ecommerce-arch.svg',
     technologies: ['AWS', 'Kubernetes', 'Node.js', 'React'],
     metrics: {
-      users: '1M+',
-      transactions: '500K/day',
+      users: '500k+',
+      transactions: '50K/day',
       uptime: '99.99%'
     }
   },
@@ -20,8 +20,8 @@ const projects = [
     image: '/analytics-arch.svg',
     technologies: ['Apache Kafka', 'Elasticsearch', 'Python', 'Docker'],
     metrics: {
-      events: '5M/sec',
-      latency: '<100ms',
+      events: '1M/sec',
+      latency: '<1000ms',
       accuracy: '99.9%'
     }
   },
@@ -32,8 +32,8 @@ const projects = [
     technologies: ['Azure', 'Terraform', 'CI/CD', 'Microservices'],
     metrics: {
       cost: '-40%',
-      performance: '+200%',
-      deployment: '10x faster'
+      performance: '+85%',
+      deployment: '3x faster'
     }
   }
 ];
