@@ -68,6 +68,22 @@ const projectData = [
         techStack: ['JavaScript', 'Phaser.io', 'Cloud Native', 'GitHub Pages', 'GitHub', 'CI/CD', 'Automation']
     },
     {
+        title: 'TowerKing Game',
+        description: 'TowerKing is a 2D game developed using JavaScript and Phaser.io hosted on GitHub Pages',
+        imageUrl: '/towerking.png',
+        demoLink: 'https://jbellmd.github.io/TowerKing/',
+        codeLink: 'https://github.com/JbellMD/TowerKing',
+        techStack: ['JavaScript', 'Phaser.io', 'Cloud Native', 'GitHub Pages', 'GitHub', 'CI/CD', 'Automation']
+    },
+    {
+        title: 'Sandwich Shop Game',
+        description: 'Sandwich Shop is a 2D game developed using JavaScript and Phaser.io hosted on GitHub Pages',
+        imageUrl: '/sandwich.png',
+        demoLink: 'https://jbellmd.github.io/sandwich-shop/',
+        codeLink: 'https://github.com/JbellMD/sandwich-shop',
+        techStack: ['JavaScript', 'Phaser.io', 'Cloud Native', 'GitHub Pages', 'GitHub', 'CI/CD', 'Automation']
+    },
+    {
         title: 'AI Fitness Tracker v1',
         description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
         imageUrl: '/fitness.png',
