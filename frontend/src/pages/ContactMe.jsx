@@ -41,7 +41,7 @@ const ContactMe = () => {
             >
                 <h1>Let's Connect</h1>
                 <p className="contact-subtitle">
-                    I'm always open to new opportunities and collaborations
+                    I'm always open to new opportunities and collaborations in the tech industry. Whether you have a project in mind or just want to chat, feel free to reach out.
                 </p>
             </motion.div>
 
