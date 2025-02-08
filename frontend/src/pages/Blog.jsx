@@ -11,6 +11,12 @@ const Blog = () => {
             tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
         },
         {
+            date: "January 2025",
+            title: "AWS Cloud Institute - Final Semester",
+            content: "Excited to announce that I am entering my fourth and final semester pursuing my AWS Cloud Institute certification. This course has prepared me for the next level of cloud development, and I am excited to continue building my skills and knowledge in this exciting field.",
+            tags: ["Certification", "Cloud Developer", "AWS", "Solutions Architect"]
+        },
+        {
             date: "December 2024",
             title: "Microsoft Azure - Training",
             content: "I have completed four courses on Microsoft Azure and am now ready to start my training. This training will help me become a proficient Azure developer and prepare me for future projects that leverage Microsoft Azure for multi-tenant applications. I have the fundamentals of Azure in place and am excited to apply them to real-world projects. My goal is to become a certified Azure Solutions Architect.",
