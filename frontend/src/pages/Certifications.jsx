@@ -7,7 +7,7 @@ const Certifications = () => {
         {
             title: 'AWS Cloud Institute: Cloud Application Developer',
             fileUrl: './ibmdev.pdf',
-            description: 'Build, deploy, test, run, and manage full stack cloud native applications. GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.',
+            description: 'Build, deploy, test and manage Cloud Native applications using AWS services such as EC2, S3, Lambda, and more. Understand how to use AWS CLI, Terraform, and CloudFormation to provision and manage resources. Learn about AWS security, monitoring, and governance best practices. Explore AWS services like IAM, VPC, RDS, and more.',
             issuer: 'AWS',
             date: 'March 2025',
             skills: ['Full Stack', 'Cloud Native', 'DevOps', 'Microservices', 'AWS']
