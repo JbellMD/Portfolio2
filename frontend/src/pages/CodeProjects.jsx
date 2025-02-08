@@ -12,6 +12,14 @@ const projectData = [
         techStack: ['React', 'Next.js', 'Firebase', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'PaaS (Platform as a Service)']
     },
     {
+        title: 'Flow AI - Platform',
+        description: 'Next.js app that serves as a education platform for users to master AI concepts and tools. It features a user-friendly interface and a comprehensive AI content library.',
+        imageUrl: '/aiflow.png',
+        demoLink: 'https://marvel-mvp.web.app/',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
+        techStack: ['React', 'Next.js', 'Firebase', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'PaaS (Platform as a Service)']
+    },
+    {
         title: 'Music Player - Code Challenge',
         description: 'Blazor WebAssembly C# application with CSS framework JavaScript/TypeScript for interop functions ASP.NET Core 6 Web API Entity Framework Core for data access SQL Server database',
         imageUrl: '/music.png',
