@@ -11,6 +11,12 @@ const Blog = () => {
             tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
         },
         {
+            date: "February 2025",
+            title: "AWS Cloud Institute - Final Semester",
+            content: "In this final semester, I have been provided with mock interviews, resume reviews, and job shadowing. This has prepared me for the next level of cloud development and has given me confidence in my ability to navigate the full stack.",
+            tags: ["Interviews", "Resumes", "Job Shadowing", "Cloud Developer", "AWS", "Solutions Architect"]
+        },
+        {
             date: "January 2025",
             title: "AWS Cloud Institute - Final Semester",
             content: "Excited to announce that I am entering my fourth and final semester pursuing my AWS Cloud Institute certification. This course has prepared me for the next level of cloud development, and I am excited to continue building my skills and knowledge in this exciting field.",
