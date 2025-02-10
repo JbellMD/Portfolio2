@@ -52,7 +52,7 @@ function Presentation() {
                     title: 'Authentication & Authorization',
                     content: 'Secure API access using token-based mechanisms like OAuth 2.0 or JWT.',
                     details: [
-                        'Use HTTPS for all API endpoints.',
+                        'Use HTTPS for all API endpoints using AWS, Azure, or Google Cloud Platform (GCP).',
                         'Issue and validate JSON Web Tokens (JWT) for session handling.',
                         'Role-Based Access Control (RBAC) for enforcing permissions.',
                         'Environment-based secure storage for API keys and secrets.'
