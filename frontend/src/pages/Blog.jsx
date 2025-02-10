@@ -29,6 +29,12 @@ const Blog = () => {
             tags: ["Certification", "Cloud Developer", "Azure", "Microsoft"]
         },
         {
+            date: "November 2024",
+            title: "AWS Cloud Institute Journey - Semester 3",
+            content: "I have offically began preparing for my AWS Certified Solutions Architect! This training will help me become a proficient AWS developer and prepare me for future projects that leverage AWS for multi-tenant applications. I have the fundamentals of AWS in place and am excited to apply them to real-world projects. My goal is to become a certified AWS Solutions Architect.",
+            tags: ["AWS", "Cloud Computing", "Professional Development", "Learning"]
+        },
+        {
             date: "October 2024",
             title: "AWS Cloud Institute Journey - Semester 3",
             content: "Excited to announce that I've begun my third semester at the AWS Cloud Institute! After completing my IBM Full Stack certification, I have much more confidence starting this new semester. The curriculum is comprehensive training in AWS services, cloud architecture, and best practices. I'm particularly looking forward to learning about AWS Lambda, EC2, and S3 services. This training will complement my full stack skills and help me build more scalable and robust applications.",
