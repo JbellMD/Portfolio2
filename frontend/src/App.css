@@ -1091,7 +1091,7 @@ body::before {
 
 /* Resume Page Styles */
 .resume-container {
-  padding: 120px 20px 60px;
+  padding: 20px 20px 60px;
   max-width: 1200px;
   margin: 0 auto;
   color: var(--text-primary);
