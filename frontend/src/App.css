@@ -939,20 +939,6 @@ body::before {
   object-fit: cover;
 }
 
-/* Page Background Styling */
-.page-background {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: url('./red.jpg') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  overflow: hidden;
-}
-
 /* Optional gradient overlay */
 .page-background::before {
   content: '';
