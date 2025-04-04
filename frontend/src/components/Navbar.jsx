@@ -46,7 +46,7 @@ const Navbar = () => {
                         <Link to="/presentation" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Documentation</Link>
                         <Link to="/certifications" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Certifications</Link>
                         <Link to="/blog" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Blog</Link>
-                        <Link to="/contact" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Contact Me</Link>
+                        <Link to="/resume" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Resume</Link>
                         
                         {/* Projects dropdown */}
                         <div 
@@ -79,7 +79,7 @@ const Navbar = () => {
                         <Link to="/presentation" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Documentation</Link>
                         <Link to="/certifications" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Certifications</Link>
                         <Link to="/blog" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Blog</Link>
-                        <Link to="/contact" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Contact Me</Link>
+                        <Link to="/resume" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>Resume</Link>
                         
                         {/* Mobile Projects dropdown */}
                         <div>

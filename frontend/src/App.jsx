@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import BackToTopButton from './components/BackToTopButton';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
-import ContactMe from './pages/ContactMe';
+import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import ArchitectureProjects from './pages/ArchitectureProjects';
 import Certifications from './pages/Certifications';
@@ -22,7 +22,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<AboutMe />} />
-                    <Route path="/contact" element={<ContactMe />} />
+                    <Route path="/resume" element={<Resume />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/projects/architecture" element={<ArchitectureProjects />} />
                     <Route path="/certifications" element={<Certifications />} />
