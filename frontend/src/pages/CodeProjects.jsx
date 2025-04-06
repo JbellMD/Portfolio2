@@ -8,7 +8,7 @@ const projectData = [
         description: 'Next.js app that serves as a platform for users to generate content for a platform. It features a user-friendly interface and a custom content generation system.',
         imageUrl: '/little.png',
         demoLink: 'https://little-guy-ai.web.app/',
-        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
+        codeLink: 'https://github.com/JbellMD/little-guy-ai',
         techStack: ['React', 'Next.js', 'Firebase', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'PaaS (Platform as a Service)']
     },
     {
