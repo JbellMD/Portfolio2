@@ -1,305 +1,113 @@
 // Presentation.jsx
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FiCode, FiCloud, FiMonitor, FiSmartphone, FiSettings } from 'react-icons/fi';
-import './Presentation.css';
+import ProjectCard from '../components/ProjectCard';
+import styles from '../styles/Projects.module.css';
 
-const TabButton = ({ icon, title, isActive, onClick }) => (
-    <motion.button
-        className={`tab-button ${isActive ? 'active' : ''}`}
-        onClick={onClick}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-    >
-        <span className="tab-icon">{icon}</span>
-        {title}
-    </motion.button>
-);
+const projectData = [
+    {
+        title: 'DeepMind RAG Implementation',
+        description: 'Advanced Retrieval-Augmented Generation (RAG) system built with Python, leveraging state-of-the-art language models and vector databases for enhanced information retrieval and generation.',
+        imageUrl: '/deepmind.png',
+        codeLink: 'https://github.com/JbellMD/DeepMind',
+        techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
+    },
+    {
+        title: 'AI Fitness Coach',
+        description: 'Intelligent fitness coaching system that uses machine learning to analyze workout patterns and provide personalized exercise recommendations and form corrections.',
+        imageUrl: '/aifitness.png',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-next',
+        techStack: ['Python', 'TensorFlow', 'Computer Vision', 'Next.js', 'OpenAI', 'Machine Learning']
+    },
+    {
+        title: 'LLM Fine-Tuning Pipeline',
+        description: 'End-to-end pipeline for fine-tuning large language models on custom datasets, featuring automated data preprocessing, training, and evaluation workflows.',
+        imageUrl: '/llm.png',
+        codeLink: 'https://github.com/JbellMD/llm-finetuning',
+        techStack: ['Python', 'PyTorch', 'Transformers', 'CUDA', 'MLOps', 'HuggingFace']
+    },
+    {
+        title: 'Intelligent Document Processing',
+        description: 'Document processing system using OCR and NLP to extract, classify, and analyze information from various document types with high accuracy.',
+        imageUrl: '/docprocess.png',
+        codeLink: 'https://github.com/JbellMD/doc-processor',
+        techStack: ['Python', 'Tesseract', 'spaCy', 'BERT', 'FastAPI', 'OCR', 'NLP']
+    },
+    {
+        title: 'MarvelAI Platform',
+        description: 'AI-powered creative platform that generates and manipulates comic-style artwork using advanced image generation and manipulation techniques.',
+        imageUrl: '/marvel.png',
+        codeLink: 'https://github.com/JbellMD/MarvelAI',
+        techStack: ['Python', 'Stable Diffusion', 'GANs', 'React', 'Firebase', 'Computer Vision']
+    },
+    {
+        title: 'Sentiment Analysis Engine',
+        description: 'Real-time sentiment analysis system for social media and customer feedback, utilizing advanced NLP techniques and deep learning models for accurate emotion detection.',
+        imageUrl: '/sentiment.png',
+        codeLink: 'https://github.com/JbellMD/sentiment-engine',
+        techStack: ['Python', 'BERT', 'RoBERTa', 'FastAPI', 'Redis', 'Docker', 'NLP']
+    },
+    {
+        title: 'Neural Style Transfer App',
+        description: 'Web application that applies artistic styles to images using deep neural networks, featuring real-time processing and custom style preservation techniques.',
+        imageUrl: '/style.png',
+        codeLink: 'https://github.com/JbellMD/neural-style',
+        techStack: ['Python', 'TensorFlow', 'CNN', 'Flask', 'React', 'AWS Lambda']
+    },
+    {
+        title: 'Time Series Forecasting API',
+        description: 'Advanced time series forecasting system using ensemble methods and deep learning for accurate predictions in financial and business applications.',
+        imageUrl: '/forecast.png',
+        codeLink: 'https://github.com/JbellMD/time-series-api',
+        techStack: ['Python', 'Prophet', 'LSTM', 'FastAPI', 'PostgreSQL', 'Docker']
+    },
+    {
+        title: 'Reinforcement Learning Game AI',
+        description: 'Game AI system trained using reinforcement learning to master complex strategic gameplay, featuring multi-agent training and adaptive difficulty scaling.',
+        imageUrl: '/rl-game.png',
+        codeLink: 'https://github.com/JbellMD/rl-game-ai',
+        techStack: ['Python', 'PyTorch', 'OpenAI Gym', 'DQN', 'A3C', 'TensorBoard']
+    },
+    {
+        title: 'Speech Recognition System',
+        description: 'Custom speech recognition system with noise reduction and accent adaptation capabilities, built using deep learning and signal processing techniques.',
+        imageUrl: '/speech.png',
+        codeLink: 'https://github.com/JbellMD/speech-recognition',
+        techStack: ['Python', 'Wav2Vec', 'PyDub', 'TensorFlow', 'FastAPI', 'WebRTC']
+    }
+];
 
-const SectionCard = ({ title, content, details }) => (
-    <motion.div
-        className="section-card"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-    >
-        <h2>{title}</h2>
-        <p>{content}</p>
-        <ul>
-            {details.map((detail, index) => (
-                <motion.li
-                    key={index}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                >
-                    {detail}
-                </motion.li>
-            ))}
-        </ul>
-    </motion.div>
-);
+const AIMLProjects = () => {
+    const [hoveredTechStack, setHoveredTechStack] = useState(null);
 
-function Presentation() {
-    const [activeTab, setActiveTab] = useState('api');
+    const handleProjectHover = (techStack) => {
+        setHoveredTechStack(techStack);
+    };
 
-    const categories = {
-        api: {
-            icon: <FiCode />,
-            title: 'API Development',
-            sections: [
-                {
-                    title: 'Authentication & Authorization',
-                    content: 'Secure API access using token-based mechanisms like OAuth 2.0 or JWT.',
-                    details: [
-                        'Use HTTPS for all API endpoints using AWS, Azure, or Google Cloud Platform (GCP).',
-                        'Issue and validate JSON Web Tokens (JWT) for session handling.',
-                        'Role-Based Access Control (RBAC) for enforcing permissions.',
-                        'Environment-based secure storage for API keys and secrets.'
-                    ]
-                },
-                {
-                    title: 'Rate Limiting',
-                    content: 'Control API usage to prevent abuse and ensure fair resource allocation.',
-                    details: [
-                        'Implement rate limiting with libraries like express-rate-limit.',
-                        'Leverage distributed rate-limiting systems using Redis for scalability.',
-                        'Differentiate rate limits for public and private APIs.',
-                        'Provide meaningful error responses for clients exceeding limits.'
-                    ]
-                },
-                {
-                    title: 'Versioning',
-                    content: 'Maintain backward compatibility and ensure smooth upgrades with API versions.',
-                    details: [
-                        'Use URL-based versioning (e.g., /v1/resource).',
-                        'Support versioning via headers for advanced flexibility.',
-                        'Clearly document deprecation timelines for older versions.',
-                        'Communicate changes through API response headers (e.g., Deprecation header).'
-                    ]
-                },
-                {
-                    title: 'Documentation with Swagger/OpenAPI',
-                    content: 'Provide comprehensive, interactive API documentation for developers.',
-                    details: [
-                        'Define API endpoints, parameters, and responses using OpenAPI specifications.',
-                        'Generate interactive documentation using Swagger UI or ReDoc.',
-                        'Include example request/response payloads for better clarity.',
-                        'Automate documentation generation with tools like swagger-jsdoc.'
-                    ]
-                }
-            ]
-        },
-        cloud: {
-            icon: <FiCloud />,
-            title: 'Cloud Architecture',
-            sections: [
-                {
-                    title: 'AWS Solutions - E-Commerce Platform',
-                    content: 'Enterprise-scale AWS architecture for e-commerce platform:',
-                    details: [
-                'Frontend: React SPA with CloudFront CDN distribution',
-                'Backend: Node.js on EC2 with Auto Scaling Groups',
-                'Database: Aurora PostgreSQL (Multi-AZ) with ElastiCache',
-                'Storage: S3 for static assets, EBS for EC2 storage',
-                'Messaging: SQS for order processing, SNS for notifications',
-                'Security: IAM, Cognito, Security Groups & NACLs',
-                'Monitoring: CloudWatch metrics, CloudTrail audit logs',
-                'Network: Route 53 DNS, VPC for secure networking'
-            ]
-                },
-                {
-                    title: 'High Availability Design',
-                    content: 'Resilient architecture patterns for 24/7 operation:',
-                    details: [
-                        'Multi-AZ deployment for database redundancy',
-                        'Auto Scaling Groups for compute elasticity',
-                        'CloudFront edge caching for global performance',
-                        'S3 versioning and lifecycle policies',
-                        'Dead Letter Queues for failed message handling'
-                    ]
-                },
-                {
-                    title: 'Cost Optimization',
-                    content: 'Efficient resource utilization strategies:',
-                    details: [
-                        'Reserved Instances for predictable workloads',
-                        'S3 Intelligent-Tiering for storage optimization',
-                        'Aurora auto-scaling for read replicas',
-                        'ElastiCache TTL policies for memory management',
-                        'Resource tagging for cost allocation'
-                    ]
-                },
-                {
-                    title: 'Azure Services',
-                    content: 'Microsoft Azure implementation:',
-                    details: [
-                        'Azure Functions',
-                        'Service Bus',
-                        'Cosmos DB',
-                        'AKS Orchestration'
-                    ]
-                }
-            ]
-        },
-        web: {
-            icon: <FiMonitor />,
-            title: 'Web Development',
-            sections: [
-                {
-                    title: 'Frontend Stack',
-                    content: 'Build modern web applications with responsive designs and efficient performance.',
-                    details: [
-                        'React.js for dynamic component-based development.',
-                        'State management tools like Redux or Context API.',
-                        'Responsive design for multi-device compatibility.',
-                        'Performance optimization through code splitting and lazy loading.'
-                    ]
-                },
-                {
-                    title: 'Backend Stack',
-                    content: 'Server-side development for robust and scalable applications.',
-                    details: [
-                        'Node.js with Express for REST APIs.',
-                        'Django with Python for advanced data processing.',
-                        '.NET Core for enterprise-grade backend solutions.',
-                        'Database design using SQL and NoSQL solutions like MongoDB or PostgreSQL.'
-                    ]
-                },
-                {
-                    title: 'AI/ML Stack',
-                    content: 'Server-side development for robust and scalable applications.',
-                    details: [
-                        'Node.js with Express for REST APIs.',
-                        'Django with Python for advanced data processing.',
-                        '.NET Core for enterprise-grade backend solutions.',
-                        'Database design using SQL and NoSQL solutions like MongoDB or PostgreSQL.'
-                    ]
-                }
-            ]
-        },
-        mobile: {
-            icon: <FiSmartphone />,
-            title: 'Mobile Development',
-            sections: [
-                {
-                    title: 'Cross-Platform Development',
-                    content: 'Create mobile applications compatible with Android and iOS.',
-                    details: [
-                        'React Native for cross-platform development.',
-                        'Flutter for beautiful and high-performance apps.',
-                        'Integration with native device APIs (e.g., camera, GPS).',
-                        'Push notifications for real-time updates and user engagement.'
-                    ]
-                },
-                {
-                    title: 'Cross-Platform Development',
-                    content: 'Create mobile applications compatible with Android and iOS.',
-                    details: [
-                        'React Native for cross-platform development.',
-                        'Flutter for beautiful and high-performance apps.',
-                        'Integration with native device APIs (e.g., camera, GPS).',
-                        'Push notifications for real-time updates and user engagement.'
-                    ]
-                },
-                {
-                    title: 'Cross-Platform Development',
-                    content: 'Create mobile applications compatible with Android and iOS.',
-                    details: [
-                        'React Native for cross-platform development.',
-                        'Flutter for beautiful and high-performance apps.',
-                        'Integration with native device APIs (e.g., camera, GPS).',
-                        'Push notifications for real-time updates and user engagement.'
-                    ]
-                }
-            ]
-        },
-        devops: {
-            icon: <FiSettings />,
-            title: 'DevOps & Automation',
-            sections: [
-                {
-                    title: 'CI/CD Pipeline',
-                    content: 'Streamline development with continuous integration and deployment.',
-                    details: [
-                        'GitHub Actions for automated workflows.',
-                        'Jenkins for robust CI/CD pipelines.',
-                        'Containerization with Docker for consistent deployments.',
-                        'Kubernetes for orchestration and scaling of microservices.'
-                    ]
-                },
-                {
-                    title: 'Monitoring and Maintenance',
-                    content: 'Ensure application reliability with proactive monitoring.',
-                    details: [
-                        'CloudWatch for system metrics and alerts.',
-                        'Application Insights for performance tracking.',
-                        'Centralized log analytics with ELK Stack.',
-                        'Automated alerting and incident management.'
-                    ]
-                },
-                {
-                    title: 'Monitoring and Maintenance',
-                    content: 'Ensure application reliability with proactive monitoring.',
-                    details: [
-                        'CloudWatch for system metrics and alerts.',
-                        'Application Insights for performance tracking.',
-                        'Centralized log analytics with ELK Stack.',
-                        'Automated alerting and incident management.'
-                    ]
-                }
-            ]
-        }
+    const getTechTagClassName = (tech) => {
+        const baseClass = styles['tech-tag'];
+        if (!hoveredTechStack) return baseClass;
+        
+        return `${baseClass} ${
+            hoveredTechStack.includes(tech) 
+                ? styles['tech-tag-highlighted']
+                : styles['tech-tag-dimmed']
+        }`;
     };
 
     return (
-        <motion.div 
-            className="presentation-container"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-        >
-            <motion.div 
-                className="documentation-header"
-                initial={{ y: -20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2 }}
-            >
-                <h1>Technical Documentation</h1>
-                <p>Comprehensive guide to my technical expertise and implementations</p>
-            </motion.div>
-
-            <div className="tab-container">
-                {Object.entries(categories).map(([key, category]) => (
-                    <TabButton
-                        key={key}
-                        icon={category.icon}
-                        title={category.title}
-                        isActive={activeTab === key}
-                        onClick={() => setActiveTab(key)}
+        <div className={styles['projects-container']}>
+            <div className="projects-grid">
+                {projectData.map((project, index) => (
+                    <ProjectCard
+                        key={index}
+                        {...project}
+                        onHover={handleProjectHover}
+                        getTechTagClassName={getTechTagClassName}
                     />
                 ))}
             </div>
-
-            <AnimatePresence mode="wait">
-                <motion.div
-                    key={activeTab}
-                    className="content-container"
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -20 }}
-                    transition={{ duration: 0.3 }}
-                >
-                    {categories[activeTab].sections.map((section, index) => (
-                        <SectionCard
-                            key={index}
-                            {...section}
-                        />
-                    ))}
-                </motion.div>
-            </AnimatePresence>
-        </motion.div>
+        </div>
     );
-}
+};
 
-export default Presentation;
+export default AIMLProjects;
