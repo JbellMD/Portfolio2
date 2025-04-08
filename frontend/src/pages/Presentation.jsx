@@ -7,14 +7,14 @@ const projectData = [
     {
         title: 'DeepMind RAG Implementation',
         description: 'Advanced Retrieval-Augmented Generation (RAG) system built with Python, leveraging state-of-the-art language models and vector databases for enhanced information retrieval and generation.',
-        imageUrl: '/deepmind.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/DeepMind',
         techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
     },
     {
         title: 'AI Fitness Coach',
         description: 'Intelligent fitness coaching system that uses machine learning to analyze workout patterns and provide personalized exercise recommendations and form corrections.',
-        imageUrl: '/aifitness.png',
+        imageUrl: '/core.png',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next',
         techStack: ['Python', 'TensorFlow', 'Computer Vision', 'Next.js', 'OpenAI', 'Machine Learning']
     },

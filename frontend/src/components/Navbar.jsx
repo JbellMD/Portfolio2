@@ -63,6 +63,9 @@ const Navbar = () => {
                                 <Link to="/projects" className="block px-4 py-2 text-sm text-gray-300 hover:text-[var(--accent-color)]">
                                     Code Projects
                                 </Link>
+                                <Link to="/presentation" className="block px-4 py-2 text-sm text-gray-300 hover:text-[var(--accent-color)]">
+                                    AI/ML Projects
+                                </Link>
                                 <Link to="/projects/architecture" className="block px-4 py-2 text-sm text-gray-300 hover:text-[var(--accent-color)]">
                                     Architecture Projects
                                 </Link>
