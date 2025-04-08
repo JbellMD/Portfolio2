@@ -43,7 +43,7 @@ const Navbar = () => {
                     <div className="hidden md:flex md:items-center md:space-x-8">
                         <Link to="/" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Home</Link>
                         <Link to="/about" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">About Me</Link>
-                        <Link to="/presentation" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Documentation</Link>
+                        <Link to="/presentation" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">AI/ML Projects</Link>
                         <Link to="/certifications" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Certifications</Link>
                         <Link to="/blog" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Blog</Link>
                         <Link to="/resume" className="text-gray-300 hover:text-[var(--accent-color)] transition-colors">Resume</Link>
