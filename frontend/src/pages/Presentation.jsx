@@ -21,14 +21,14 @@ const projectData = [
     {
         title: 'LLM Fine-Tuning Pipeline',
         description: 'End-to-end pipeline for fine-tuning large language models on custom datasets, featuring automated data preprocessing, training, and evaluation workflows.',
-        imageUrl: '/llm.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/llm-finetuning',
         techStack: ['Python', 'PyTorch', 'Transformers', 'CUDA', 'MLOps', 'HuggingFace']
     },
     {
         title: 'Intelligent Document Processing',
         description: 'Document processing system using OCR and NLP to extract, classify, and analyze information from various document types with high accuracy.',
-        imageUrl: '/docprocess.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/doc-processor',
         techStack: ['Python', 'Tesseract', 'spaCy', 'BERT', 'FastAPI', 'OCR', 'NLP']
     },
@@ -42,35 +42,35 @@ const projectData = [
     {
         title: 'Sentiment Analysis Engine',
         description: 'Real-time sentiment analysis system for social media and customer feedback, utilizing advanced NLP techniques and deep learning models for accurate emotion detection.',
-        imageUrl: '/sentiment.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/sentiment-engine',
         techStack: ['Python', 'BERT', 'RoBERTa', 'FastAPI', 'Redis', 'Docker', 'NLP']
     },
     {
         title: 'Neural Style Transfer App',
         description: 'Web application that applies artistic styles to images using deep neural networks, featuring real-time processing and custom style preservation techniques.',
-        imageUrl: '/style.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/neural-style',
         techStack: ['Python', 'TensorFlow', 'CNN', 'Flask', 'React', 'AWS Lambda']
     },
     {
         title: 'Time Series Forecasting API',
         description: 'Advanced time series forecasting system using ensemble methods and deep learning for accurate predictions in financial and business applications.',
-        imageUrl: '/forecast.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/time-series-api',
         techStack: ['Python', 'Prophet', 'LSTM', 'FastAPI', 'PostgreSQL', 'Docker']
     },
     {
         title: 'Reinforcement Learning Game AI',
         description: 'Game AI system trained using reinforcement learning to master complex strategic gameplay, featuring multi-agent training and adaptive difficulty scaling.',
-        imageUrl: '/rl-game.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/rl-game-ai',
         techStack: ['Python', 'PyTorch', 'OpenAI Gym', 'DQN', 'A3C', 'TensorBoard']
     },
     {
         title: 'Speech Recognition System',
         description: 'Custom speech recognition system with noise reduction and accent adaptation capabilities, built using deep learning and signal processing techniques.',
-        imageUrl: '/speech.png',
+        imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/speech-recognition',
         techStack: ['Python', 'Wav2Vec', 'PyDub', 'TensorFlow', 'FastAPI', 'WebRTC']
     }
