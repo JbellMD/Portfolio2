@@ -20,6 +20,14 @@ const projectData = [
         techStack: ['React', 'Next.js', 'Firebase', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'PaaS (Platform as a Service)']
     },
     {
+        title: 'JB Manager - Platform',
+        description: 'A platform designed to be an Asana clone for job task management and project management integration with job board management',
+        imageUrl: '/jbmanage.png',
+        demoLink: 'https://bountiful-alignment-production.up.railway.app/',
+        codeLink: 'https://github.com/JbellMD/jb-manager2',
+        techStack: ['React', 'Next.js', 'Railway', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'PaaS (Platform as a Service)']
+    },
+    {
         title: 'Music Player - Code Challenge',
         description: 'Blazor WebAssembly C# application with CSS framework JavaScript/TypeScript for interop functions ASP.NET Core 6 Web API Entity Framework Core for data access SQL Server database',
         imageUrl: '/music.png',
