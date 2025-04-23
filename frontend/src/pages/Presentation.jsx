@@ -14,7 +14,7 @@ const projectData = [
     {
         title: 'Higher Self Chatbot',
         description: 'Advanced Chatbot featuring Retrieval-Augmented Generation (RAG) system built with Python, leveraging state-of-the-art language models with a focus on user experience and personalized interactions.',
-        imageUrl: '/builder.jpg',
+        imageUrl: '/chatbot.jpg',
         codeLink: 'https://github.com/JbellMD/higher-self',
         demoLink: 'https://laughingsmile.netlify.app/',
         techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
@@ -25,6 +25,13 @@ const projectData = [
         imageUrl: '/core.png',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next',
         techStack: ['Python', 'TensorFlow', 'Computer Vision', 'Next.js', 'OpenAI', 'Machine Learning']
+    },
+    {
+        title: 'MarvelAI Platform',
+        description: 'AI-powered creative platform that generates and manipulates comic-style artwork using advanced image generation and manipulation techniques.',
+        imageUrl: '/marvel.png',
+        codeLink: 'https://github.com/JbellMD/MarvelAI',
+        techStack: ['Python', 'Stable Diffusion', 'GANs', 'React', 'Firebase', 'Computer Vision']
     },
     {
         title: 'LLM Fine-Tuning Pipeline',
@@ -39,13 +46,6 @@ const projectData = [
         imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/doc-processor',
         techStack: ['Python', 'Tesseract', 'spaCy', 'BERT', 'FastAPI', 'OCR', 'NLP']
-    },
-    {
-        title: 'MarvelAI Platform',
-        description: 'AI-powered creative platform that generates and manipulates comic-style artwork using advanced image generation and manipulation techniques.',
-        imageUrl: '/marvel.png',
-        codeLink: 'https://github.com/JbellMD/MarvelAI',
-        techStack: ['Python', 'Stable Diffusion', 'GANs', 'React', 'Firebase', 'Computer Vision']
     },
     {
         title: 'Sentiment Analysis Engine',
