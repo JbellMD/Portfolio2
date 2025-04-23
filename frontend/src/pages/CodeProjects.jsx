@@ -28,6 +28,14 @@ const projectData = [
         techStack: ['React', 'Next.js', 'Railway', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'PaaS (Platform as a Service)']
     },
     {
+        title: 'Dashboard Service',
+        description: 'This application uses interactive frontends with NextJS, Shadcn UI, and Tailwind CSS deployed frontend with Vercel and backend with Railway.',
+        imageUrl: '/dash.png',
+        demoLink: 'https://dashboard-showcase-xi.vercel.app/',
+        codeLink: 'https://github.com/JbellMD/dashboard-showcase',
+        techStack: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Shadcn UI', 'Railway', 'Vercel']
+    },
+    {
         title: 'Music Player - Code Challenge',
         description: 'Blazor WebAssembly C# application with CSS framework JavaScript/TypeScript for interop functions ASP.NET Core 6 Web API Entity Framework Core for data access SQL Server database',
         imageUrl: '/music.png',
@@ -114,14 +122,6 @@ const projectData = [
         demoLink: 'https://ai-fitness-next.web.app/',
         codeLink: 'https://github.com/JbellMD/ai-fitness-next',
         techStack: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase']
-    },
-    {
-        title: 'MarvelAI - Platform',
-        description: 'This application uses interactive frontends with React while creating backend logic with Firebase as a DB and featuring Firebase and OpenAI insights.',
-        imageUrl: '/marvel.png',
-        demoLink: 'https://little-guy-ai.web.app/products',
-        codeLink: 'https://github.com/JbellMD/ai-fitness-tracker',
-        techStack: ['React', 'JavaScript', 'Firebase', 'Tailwind CSS', 'Python']
     },
     {
         title: 'Car Dealership Reviews',
