@@ -14,7 +14,7 @@ const projectData = [
     {
         title: 'Higher Self Chatbot',
         description: 'Advanced Chatbot featuring Retrieval-Augmented Generation (RAG) system built with Python, leveraging state-of-the-art language models with a focus on user experience and personalized interactions.',
-        imageUrl: '/chatbot.jpg',
+        imageUrl: '/chatbot.png',
         codeLink: 'https://github.com/JbellMD/higher-self',
         demoLink: 'https://laughingsmile.netlify.app/',
         techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
