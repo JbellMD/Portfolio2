@@ -12,6 +12,14 @@ const projectData = [
         techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
     },
     {
+        title: 'OrchestrAI Multi-Agent System',
+        description: 'A robust orchestration platform for AI agents that decomposes complex tasks into subtasks, assigns specialized agents, and synthesizes results. Features a tiered memory system, resilient task execution dashboard, and real-time agent performance metrics.',
+        imageUrl: '/orchestrai.png',  // You'll need to add this image to your assets
+        codeLink: 'https://github.com/JbellMD/AI-Agent',
+        demoLink: 'https://orchestrai-dashboard.windsurf.build/',
+        techStack: ['React', 'FastAPI', 'PostgreSQL', 'Redis', 'Python', 'Chakra UI', 'SQLAlchemy', 'Async', 'Multi-Agent Architecture']
+    },
+    {
         title: 'Higher Self Chatbot',
         description: 'Advanced Chatbot featuring Retrieval-Augmented Generation (RAG) system built with Python, leveraging state-of-the-art language models with a focus on user experience and personalized interactions.',
         imageUrl: '/chatbot.png',
@@ -20,11 +28,12 @@ const projectData = [
         techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
     },
     {
-        title: 'AI Fitness Coach',
-        description: 'Intelligent fitness coaching system that uses machine learning to analyze workout patterns and provide personalized exercise recommendations and form corrections.',
-        imageUrl: '/core.png',
-        codeLink: 'https://github.com/JbellMD/ai-fitness-next',
-        techStack: ['Python', 'TensorFlow', 'Computer Vision', 'Next.js', 'OpenAI', 'Machine Learning']
+        title: 'ModularNLP - Unified Framework',
+        description: 'A modular framework for multi-task NLP tasks, providing a unified interface for training, evaluation, and deployment of state-of-the-art NLP models.',
+        imageUrl: '/nlp.png',
+        codeLink: 'https://github.com/JbellMD/ai_test_env_NLP',
+        demoLink: 'https://app.readytensor.ai/publications/modularnlp-a-unified-framework-for-multi-task-nlp-i9oejkV9RuYv',
+        techStack: ['Python', 'TensorFlow', 'Computer Vision', 'OpenAI', 'Machine Learning', 'ReadyTensor', 'NLP']
     },
     {
         title: 'MarvelAI Platform',
@@ -53,6 +62,13 @@ const projectData = [
         imageUrl: '/builder.jpg',
         codeLink: 'https://github.com/JbellMD/sentiment-engine',
         techStack: ['Python', 'BERT', 'RoBERTa', 'FastAPI', 'Redis', 'Docker', 'NLP']
+    },
+    {
+        title: 'AI Fitness Coach',
+        description: 'Intelligent fitness coaching system that uses machine learning to analyze workout patterns and provide personalized exercise recommendations and form corrections.',
+        imageUrl: '/core.png',
+        codeLink: 'https://github.com/JbellMD/ai-fitness-next',
+        techStack: ['Python', 'TensorFlow', 'Computer Vision', 'Next.js', 'OpenAI', 'Machine Learning']
     },
     {
         title: 'Neural Style Transfer App',
