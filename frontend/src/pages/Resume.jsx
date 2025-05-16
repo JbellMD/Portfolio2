@@ -30,7 +30,7 @@ const Resume = () => {
             >
                 <div className="pdf-container">
                     <iframe
-                        src="/JBResumeCloud.pdf"
+                        src="/JBResume.pdf"
                         title="Jonathan Bello Resume"
                         className="resume-pdf"
                         width="100%"
@@ -41,7 +41,7 @@ const Resume = () => {
                 
                 <div className="download-section">
                     <a 
-                        href="/JBResumeCloud.pdf" 
+                        href="/JBResume.pdf" 
                         download="Jonathan_Bello_Resume.pdf"
                         className="download-button"
                     >

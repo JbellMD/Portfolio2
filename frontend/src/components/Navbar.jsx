@@ -69,6 +69,9 @@ const Navbar = () => {
                                 <Link to="/projects/architecture" className="block px-4 py-2 text-sm text-gray-300 hover:text-[var(--accent-color)]">
                                     Architecture Projects
                                 </Link>
+                                <Link to="/projects/system-design" className="block px-4 py-2 text-sm text-gray-300 hover:text-[var(--accent-color)]">
+                                    AWS Cloud Designs
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -99,6 +102,9 @@ const Navbar = () => {
                                     </Link>
                                     <Link to="/projects/architecture" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>
                                         Architecture Projects
+                                    </Link>
+                                    <Link to="/projects/system-design" className="block px-3 py-2 text-gray-300 hover:text-[var(--accent-color)] transition-colors" onClick={closeMenu}>
+                                        AWS Cloud Designs
                                     </Link>
                                 </div>
                             )}

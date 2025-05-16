@@ -11,6 +11,7 @@ import ArchitectureProjects from './pages/ArchitectureProjects';
 import Certifications from './pages/Certifications';
 import Blog from './pages/Blog';
 import Presentation from './pages/Presentation';
+import SystemDesign from './pages/SystemDesign';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/projects/architecture" element={<ArchitectureProjects />} />
+                    <Route path="/projects/system-design" element={<SystemDesign />} />
                     <Route path="/certifications" element={<Certifications />} />
                     <Route path="/presentation" element={<Presentation />} />
                     <Route path="/blog" element={<Blog />} />
