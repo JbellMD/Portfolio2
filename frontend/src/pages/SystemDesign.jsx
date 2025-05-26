@@ -142,11 +142,11 @@ const SystemDesign = () => {
             image: '/aws-11.png',
             services: ['Amazon SageMaker', 'AWS Lambda', 'AWS IoT Core', 'Amazon S3', 'AWS Step Functions', 'AWS KMS'],
             keyFeatures: [
-                'Decentralized model training',
-                'Privacy-preserving analytics',
-                'Edge device integration',
-                'Secure model aggregation'
-            ]
+                'Decentralized model training using SageMaker’s federated learning capabilities and Step Functions coordination.',
+                'Privacy-preserving analytics by keeping data local on edge devices via IoT Core and Greengrass.',
+                'Edge device integration with AWS IoT for secure, bi-directional model updates.',
+                'Secure model aggregation using KMS-encrypted transfers and Lambda for aggregation logic.'
+            ]            
         },
         {
             id: 12,
