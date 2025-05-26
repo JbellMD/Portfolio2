@@ -90,11 +90,11 @@ const SystemDesign = () => {
             image: '/aws-7.png',
             services: ['Amazon Personalize', 'Amazon Kinesis', 'AWS Lambda', 'Amazon DynamoDB', 'Amazon SageMaker', 'Amazon ElastiCache'],
             keyFeatures: [
-                'Real-time personalization with low latency',
-                'A/B testing framework for recommendation strategies',
-                'User behavior tracking and analysis',
-                'Integration with existing product catalogs'
-            ]
+                'Real-time personalization with low latency using Amazon Personalize, Lambda triggers, and Kinesis event streams.',
+                'A/B testing framework for recommendation strategies implemented via SageMaker variants and DynamoDB flags.',
+                'User behavior tracking and analysis by aggregating events through Kinesis and analyzing patterns with SageMaker.',
+                'Integration with existing product catalogs via ElastiCache-backed lookups and DynamoDB key-value access.'
+            ]            
         },
         {
             id: 8,
