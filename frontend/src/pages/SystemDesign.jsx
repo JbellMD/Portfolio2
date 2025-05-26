@@ -12,10 +12,10 @@ const SystemDesign = () => {
             image: '/aws-1.png',
             services: ['Amazon Bedrock', 'AWS Lambda', 'Amazon DynamoDB', 'Amazon S3', 'Amazon CloudFront', 'AWS IAM', 'Amazon Cognito'],
             keyFeatures: [
-                'Secure enterprise LLM integration with fine-tuning capabilities',
-                'Multi-model selection and version control',
-                'Comprehensive logging and monitoring',
-                'Scalable serverless architecture'
+                'Secure enterprise LLM integration with fine-tuning capabilities using Amazon Bedrock with IAM and Cognito for role-based access and authentication.',
+                'Multi-model selection and version control facilitated through Amazon Bedrock’s model provider interface and dynamic Lambda invocations.',
+                'Comprehensive logging and monitoring achieved via integrated CloudWatch dashboards and custom metrics across Lambda and DynamoDB.',
+                'Scalable serverless architecture utilizing AWS Lambda for compute, S3 for persistence, and CloudFront for global content delivery.'
             ]
         },
         {
