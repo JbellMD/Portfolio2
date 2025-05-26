@@ -38,11 +38,11 @@ const SystemDesign = () => {
             image: '/aws-3.png',
             services: ['AWS Lambda', 'Amazon Kinesis', 'Amazon S3', 'Amazon Athena', 'Amazon QuickSight', 'AWS Glue'],
             keyFeatures: [
-                'Real-time data streaming and processing',
-                'Automated ETL pipelines',
-                'Cost-effective serverless compute',
-                'Comprehensive data lake architecture'
-            ]
+                'Automated model training and validation orchestrated by AWS Step Functions and SageMaker pipelines.',
+                'A/B testing for model deployment managed using custom endpoints in SageMaker and versioned routing logic in Lambda.',
+                'Drift detection and monitoring via CloudWatch metrics and alerts paired with automated model checks.',
+                'Model versioning and lineage tracking supported through S3 versioning and SageMaker Model Registry.'
+            ]            
         },
         {
             id: 4,
