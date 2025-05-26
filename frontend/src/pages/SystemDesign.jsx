@@ -207,10 +207,10 @@ const SystemDesign = () => {
             image: '/aws-16.png',
             services: ['Amazon Lex', 'Amazon Connect', 'Amazon Comprehend', 'Amazon Bedrock', 'Amazon DynamoDB', 'AWS Lambda'],
             keyFeatures: [
-                'Intelligent conversation routing',
-                'Real-time sentiment analysis',
-                'Agent assistance with knowledge retrieval',
-                'Comprehensive interaction analytics'
+                'Intelligent conversation routing through Amazon Lex integrated with Connect’s contact flows.',
+                'Real-time sentiment analysis performed using Comprehend during active calls.',
+                'Agent assistance with knowledge retrieval powered by Bedrock summaries and DynamoDB FAQs.',
+                'Comprehensive interaction analytics compiled from Connect metrics and analyzed via QuickSight.'
             ]
         },
         {
@@ -220,11 +220,11 @@ const SystemDesign = () => {
             image: '/aws-17.png',
             services: ['AWS IoT Greengrass', 'Amazon SageMaker Edge', 'AWS Lambda', 'Amazon S3', 'AWS IoT Core', 'AWS Step Functions'],
             keyFeatures: [
-                'Edge-optimized model deployment',
-                'Offline inferencing capabilities',
-                'Remote management and monitoring',
-                'Efficient model updates and versioning'
-            ]
+                'Edge-optimized model deployment via SageMaker Edge and IoT Greengrass.',
+                'Offline inferencing capabilities enabled by local execution and fallback caching in S3.',
+                'Remote management and monitoring supported through IoT Core device shadows and telemetry.',
+                'Efficient model updates and versioning coordinated through Step Functions and signed model packages.'
+            ]            
         },
         {
             id: 18,
@@ -233,11 +233,11 @@ const SystemDesign = () => {
             image: '/aws-18.png',
             services: ['Amazon SageMaker', 'Amazon Bedrock', 'AWS Glue', 'Amazon S3', 'Amazon CloudWatch', 'AWS Step Functions', 'Amazon API Gateway'],
             keyFeatures: [
-                'End-to-end AI development lifecycle',
-                'Centralized model governance',
-                'Comprehensive security and compliance controls',
-                'Integration with enterprise systems'
-            ]
+                'End-to-end AI development lifecycle from data ingestion (Glue, S3) to model deployment (SageMaker, Bedrock).',
+                'Centralized model governance through SageMaker’s Model Registry and Bedrock deployment controls.',
+                'Comprehensive security and compliance controls including encrypted S3 storage, IAM roles, and logging.',
+                'Integration with enterprise systems using API Gateway endpoints and Step Functions orchestration.'
+            ]            
         },
         {
             id: 19,
@@ -246,11 +246,11 @@ const SystemDesign = () => {
             image: '/aws-fulldesign.png',
             services: ['Amazon Bedrock', 'Amazon SageMaker', 'AWS Lambda', 'Amazon S3', 'Amazon DynamoDB', 'Amazon API Gateway', 'Amazon CloudFront', 'AWS Step Functions'],
             keyFeatures: [
-                'Enterprise-scale architecture',
-                'Comprehensive security implementation',
-                'End-to-end AI and ML integration',
-                'Optimized for high availability and fault tolerance'
-            ]
+                'Enterprise-scale architecture integrating all major AWS services in a modular, scalable layout.',
+                'Comprehensive security implementation including IAM, encrypted storage, API throttling, and logging.',
+                'End-to-end AI and ML integration via SageMaker, Bedrock, and orchestration with Lambda and Step Functions.',
+                'Optimized for high availability and fault tolerance through CloudFront, Route 53, and multi-region design.'
+            ]            
         }
     ];
     
