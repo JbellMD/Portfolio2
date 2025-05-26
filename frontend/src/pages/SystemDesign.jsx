@@ -129,11 +129,11 @@ const SystemDesign = () => {
             image: '/aws-10.png',
             services: ['Amazon Kendra', 'Amazon Bedrock', 'Amazon S3', 'Amazon RDS', 'Amazon OpenSearch Service', 'AWS Lambda'],
             keyFeatures: [
-                'Natural language querying of enterprise data',
-                'Document understanding and semantic indexing',
-                'Integration with existing knowledge bases',
-                'Role-based access controls'
-            ]
+                'Natural language querying of enterprise data with Amazon Kendra’s semantic search and Bedrock-generated summaries.',
+                'Document understanding and semantic indexing powered by Bedrock embeddings and Kendra data sources.',
+                'Integration with existing knowledge bases using Lambda to sync content from S3, RDS, and external systems.',
+                'Role-based access controls managed via IAM and Kendra’s access control filters.'
+            ]            
         },
         {
             id: 11,
