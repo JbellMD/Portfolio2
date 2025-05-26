@@ -194,11 +194,11 @@ const SystemDesign = () => {
             image: '/aws-15.png',
             services: ['Amazon Kinesis', 'Amazon SageMaker', 'Amazon Managed Service for Apache Flink', 'Amazon QuickSight', 'Amazon SNS', 'AWS Lambda'],
             keyFeatures: [
-                'Real-time data processing and visualization',
-                'AI-enhanced anomaly detection',
-                'Automated alerting and notifications',
-                'Interactive dashboards with predictive capabilities'
-            ]
+                'Real-time data processing and visualization powered by Kinesis and Flink pipelines streamed to QuickSight.',
+                'AI-enhanced anomaly detection using SageMaker models trained on live telemetry data.',
+                'Automated alerting and notifications delivered through SNS upon detection of anomalies or thresholds.',
+                'Interactive dashboards with predictive capabilities built in QuickSight using ML insights from SageMaker.'
+            ]            
         },
         {
             id: 16,
