@@ -51,11 +51,11 @@ const SystemDesign = () => {
             image: '/aws-4.png',
             services: ['Amazon SageMaker', 'Amazon Bedrock', 'Amazon Comprehend', 'Amazon Rekognition', 'AWS Lambda', 'Amazon API Gateway'],
             keyFeatures: [
-                'Integration of custom models with AWS AI services',
-                'Centralized model governance',
-                'Scalable inference endpoints',
-                'Enterprise-grade security controls'
-            ]
+                'Automated model training and validation orchestrated by AWS Step Functions and SageMaker pipelines.',
+                'A/B testing for model deployment managed using custom endpoints in SageMaker and versioned routing logic in Lambda.',
+                'Drift detection and monitoring via CloudWatch metrics and alerts paired with automated model checks.',
+                'Model versioning and lineage tracking supported through S3 versioning and SageMaker Model Registry.'
+            ]            
         },
         {
             id: 5,
