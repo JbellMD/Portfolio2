@@ -103,11 +103,11 @@ const SystemDesign = () => {
             image: '/aws-8.png',
             services: ['Amazon Bedrock', 'AWS PrivateLink', 'Amazon RDS', 'AWS KMS', 'Amazon CloudWatch', 'AWS WAF'],
             keyFeatures: [
-                'Private VPC deployment with secure data access',
-                'Fine-tuning on proprietary datasets',
-                'Comprehensive audit logging',
-                'Content filtering and moderation'
-            ]
+                'Private VPC deployment with secure data access enabled by AWS PrivateLink and Bedrock VPC endpoints.',
+                'Fine-tuning on proprietary datasets managed in Amazon S3 and fine-tuned through Bedrock’s model interface.',
+                'Comprehensive audit logging with CloudWatch and CloudTrail across all inference activities.',
+                'Content filtering and moderation layered through Bedrock’s moderation API and custom Lambda filters.'
+            ]            
         },
         {
             id: 9,
