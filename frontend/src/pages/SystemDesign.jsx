@@ -116,11 +116,11 @@ const SystemDesign = () => {
             image: '/aws-9.png',
             services: ['Amazon Rekognition', 'Amazon Comprehend', 'Amazon SageMaker', 'AWS Lambda', 'Amazon SNS', 'Amazon SQS'],
             keyFeatures: [
-                'Multi-modal content analysis',
-                'Human-in-the-loop review process',
-                'Configurable policy enforcement',
-                'Real-time monitoring and alerting'
-            ]
+                'Multi-modal content analysis using Rekognition for images/videos and Comprehend for NLP tasks.',
+                'Human-in-the-loop review process enabled by triggering SQS notifications to moderation queues.',
+                'Configurable policy enforcement rules triggered via Lambda and defined in DynamoDB-based configurations.',
+                'Real-time monitoring and alerting using SNS to deliver moderation events to dashboards or Slack integrations.'
+            ]            
         },
         {
             id: 10,
