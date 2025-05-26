@@ -12,6 +12,14 @@ const projectData = [
         techStack: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI', 'RAG', 'NLP']
     },
     {
+        title: 'RT-RAG Assistant - Document Query Framework',
+        description: 'A modular Retrieval-Augmented Generation system for querying documents using natural language, featuring FAISS-based vector search, OpenAI embeddings, and a FastAPI backend.',
+        imageUrl: '/RT-RAG.png',
+        codeLink: 'https://github.com/JbellMD/RT-RAG',
+        demoLink: 'https://app.readytensor.ai/publications/fEZHv6d4lqmx',
+        techStack: ['Python', 'FastAPI', 'OpenAI', 'FAISS', 'Docker', 'Machine Learning', 'RAG']
+    },    
+    {
         title: 'OrchestrAI Multi-Agent System',
         description: 'A robust orchestration platform for AI agents that decomposes complex tasks into subtasks, assigns specialized agents, and synthesizes results. Features a tiered memory system, resilient task execution dashboard, and real-time agent performance metrics.',
         imageUrl: '/orchestrai.png',  // You'll need to add this image to your assets
