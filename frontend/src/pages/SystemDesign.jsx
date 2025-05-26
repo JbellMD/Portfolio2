@@ -181,11 +181,11 @@ const SystemDesign = () => {
             image: '/aws-14.png',
             services: ['Amazon SageMaker', 'AWS CodeArtifact', 'AWS IAM', 'AWS CloudTrail', 'AWS Config', 'Amazon VPC'],
             keyFeatures: [
-                'Secure model development lifecycle',
-                'Compliance monitoring and enforcement',
-                'Data lineage tracking',
-                'Isolated development environments'
-            ]
+                'Secure model development lifecycle managed with IAM policies, VPC isolation, and SageMaker notebooks.',
+                'Compliance monitoring and enforcement tracked via Config rules and CloudTrail audit trails.',
+                'Data lineage tracking using tagged S3 buckets and SageMaker Model Registry histories.',
+                'Isolated development environments with dedicated VPC subnets and security groups.'
+            ]            
         },
         {
             id: 15,
