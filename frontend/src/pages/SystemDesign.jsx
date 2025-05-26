@@ -168,11 +168,11 @@ const SystemDesign = () => {
             image: '/aws-13.png',
             services: ['Amazon DevOps Guru', 'AWS Lambda', 'Amazon EventBridge', 'Amazon CloudWatch', 'AWS Systems Manager', 'Amazon SageMaker'],
             keyFeatures: [
-                'Predictive maintenance and anomaly detection',
-                'Automated incident response',
-                'Infrastructure optimization',
-                'Performance analytics and trend analysis'
-            ]
+                'Predictive maintenance and anomaly detection using DevOps Guru and CloudWatch anomaly detection.',
+                'Automated incident response triggered by EventBridge and handled through Systems Manager Runbooks.',
+                'Infrastructure optimization recommendations surfaced via DevOps Guru insights and performance metrics.',
+                'Performance analytics and trend analysis available through integrated CloudWatch dashboards and SageMaker forecasting.'
+            ]            
         },
         {
             id: 14,
