@@ -64,11 +64,11 @@ const SystemDesign = () => {
             image: '/aws-5.png',
             services: ['Amazon Textract', 'Amazon Bedrock', 'Amazon Comprehend', 'AWS Lambda', 'Amazon S3', 'Amazon OpenSearch Service'],
             keyFeatures: [
-                'Automated document extraction and classification',
-                'Entity recognition and relationship mapping',
-                'Knowledge graph construction',
-                'Semantic search capabilities'
-            ]
+                'Automated document extraction and classification using Amazon Textract and Bedrock for downstream LLM-based analysis.',
+                'Entity recognition and relationship mapping via Amazon Comprehend for semantic understanding.',
+                'Knowledge graph construction by indexing entities into Amazon OpenSearch Service.',
+                'Semantic search capabilities through OpenSearch paired with contextual enrichment from Bedrock-generated summaries.'
+            ]            
         },
         {
             id: 6,
@@ -77,11 +77,11 @@ const SystemDesign = () => {
             image: '/aws-6.png',
             services: ['Amazon SageMaker', 'Amazon CloudFront', 'AWS Global Accelerator', 'Amazon DynamoDB Global Tables', 'Amazon Route 53'],
             keyFeatures: [
-                'Global model deployment with regional customization',
-                'Edge-optimized inference',
-                'Disaster recovery capabilities',
-                'Multi-region failover design'
-            ]
+                'Global model deployment with regional customization using SageMaker endpoints in multiple regions.',
+                'Edge-optimized inference with CloudFront and Global Accelerator reducing latency for end users.',
+                'Disaster recovery capabilities enabled by cross-region DynamoDB Global Tables and health-checked Route 53 routing.',
+                'Multi-region failover design automatically reroutes traffic during outages using Route 53’s failover policies.'
+            ]            
         },
         {
             id: 7,
