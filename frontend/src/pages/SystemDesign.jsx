@@ -25,11 +25,11 @@ const SystemDesign = () => {
             image: '/aws-2.png',
             services: ['Amazon SageMaker', 'AWS CodePipeline', 'AWS Lambda', 'Amazon CloudWatch', 'Amazon S3', 'AWS Step Functions'],
             keyFeatures: [
-                'Automated model training and validation',
-                'A/B testing for model deployment',
-                'Drift detection and monitoring',
-                'Model versioning and lineage tracking'
-            ]
+                'Automated model training and validation orchestrated by AWS Step Functions and SageMaker pipelines.',
+                'A/B testing for model deployment managed using custom endpoints in SageMaker and versioned routing logic in Lambda.',
+                'Drift detection and monitoring via CloudWatch metrics and alerts paired with automated model checks.',
+                'Model versioning and lineage tracking supported through S3 versioning and SageMaker Model Registry.'
+            ]            
         },
         {
             id: 3,
