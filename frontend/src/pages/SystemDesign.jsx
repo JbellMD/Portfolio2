@@ -38,11 +38,11 @@ const SystemDesign = () => {
             image: '/aws-3.png',
             services: ['AWS Lambda', 'Amazon Kinesis', 'Amazon S3', 'Amazon Athena', 'Amazon QuickSight', 'AWS Glue'],
             keyFeatures: [
-                'Automated model training and validation orchestrated by AWS Step Functions and SageMaker pipelines.',
-                'A/B testing for model deployment managed using custom endpoints in SageMaker and versioned routing logic in Lambda.',
-                'Drift detection and monitoring via CloudWatch metrics and alerts paired with automated model checks.',
-                'Model versioning and lineage tracking supported through S3 versioning and SageMaker Model Registry.'
-            ]            
+                'Real-time data streaming and processing powered by Amazon Kinesis integrated with AWS Lambda for on-the-fly transformations.',
+                'Automated ETL pipelines built with AWS Glue and Lambda triggered by S3 events.',
+                'Cost-effective serverless compute ensured by pay-per-use Lambda functions and event-based architecture.',
+                'Comprehensive data lake architecture implemented using Amazon S3, queried through Athena and visualized in QuickSight.'
+            ]                     
         },
         {
             id: 4,
@@ -51,11 +51,11 @@ const SystemDesign = () => {
             image: '/aws-4.png',
             services: ['Amazon SageMaker', 'Amazon Bedrock', 'Amazon Comprehend', 'Amazon Rekognition', 'AWS Lambda', 'Amazon API Gateway'],
             keyFeatures: [
-                'Automated model training and validation orchestrated by AWS Step Functions and SageMaker pipelines.',
-                'A/B testing for model deployment managed using custom endpoints in SageMaker and versioned routing logic in Lambda.',
-                'Drift detection and monitoring via CloudWatch metrics and alerts paired with automated model checks.',
-                'Model versioning and lineage tracking supported through S3 versioning and SageMaker Model Registry.'
-            ]            
+                'Integration of custom models (SageMaker) with AWS AI services like Comprehend and Bedrock for multi-modal inference.',
+                'Centralized model governance managed via versioned SageMaker models and IAM-controlled access policies.',
+                'Scalable inference endpoints hosted on SageMaker with auto-scaling and invocation via API Gateway.',
+                'Enterprise-grade security controls using IAM roles, logging with CloudWatch, and Lambda execution control.'
+            ]                     
         },
         {
             id: 5,
