@@ -155,11 +155,11 @@ const SystemDesign = () => {
             image: '/aws-12.png',
             services: ['Amazon Rekognition', 'Amazon Transcribe', 'Amazon Comprehend', 'Amazon Bedrock', 'AWS Step Functions', 'Amazon S3'],
             keyFeatures: [
-                'Coordinated multimodal analysis',
-                'Scene understanding and contextual awareness',
-                'Automated content tagging and organization',
-                'Scalable media processing workflows'
-            ]
+                'Coordinated multimodal analysis combining Rekognition, Transcribe, and Comprehend in a single Step Functions pipeline.',
+                'Scene understanding and contextual awareness through combined insights from video, audio, and text streams.',
+                'Automated content tagging and organization stored in metadata on S3 and indexed via OpenSearch.',
+                'Scalable media processing workflows using Lambda and S3-triggered event chains.'
+            ]            
         },
         {
             id: 13,
