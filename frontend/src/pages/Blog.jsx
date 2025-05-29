@@ -5,10 +5,28 @@ import { FaCalendar, FaBookmark } from 'react-icons/fa';
 const Blog = () => {
     const entries = [
         {
+            date: "May 2025",
+            title: "Milestone: Amazon Mechanical Turk",
+            content: "I have officially been with Amazon MTurk for half a year, I am grateful for the opportunity to work with such a talented team and to be able to contribute to such important projects. I am also grateful for the opportunity to work with such a talented team and to be able to contribute to such important projects.",
+            tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
+        },
+        {
             date: "April 2025",
             title: "Milestone: Graduated from AWS Cloud Institute",
             content: "This month was a milestone, as I graduated from the AWS Cloud Institute! This coursework has prepared me to become a successful Cloud Developer. This certification has not only validated my skills but also given me confidence in my ability to navigate the full stack. I'm now looking forward to deepening my understanding of backend and cloud technologies as I prepare for more advanced projects.",
             tags: ["Certification", "Cloud Developer", "AWS", "Achievement"]
+        },
+        {
+            date: "March 2025",
+            title: "Onboarding and beyond",
+            content: "The first month as an AI/ML Engineer was mostly onboarding and learning the ropes with onboarding and strategy meetings being the majority of tasks so far. I am excited for the next month as we will get into LLMs and Generative AI and the execution of our first project.",
+            tags: ["ML Engineer", "AI/ML", "Start Up", "Onboarding"]
+        },
+        {
+            date: "February 2025",
+            title: "Milestone: Landed my ideal role as an AI/ML Engineer",
+            content: "This month was a milestone, as I landed my ideal role as an AI/ML Engineer at a startup in New York City! I'm excited to start my new role and continue to grow my skills in the field and gain experience with Python, Machine Learning, and Generative AI.",
+            tags: ["AI/ML", "ML Engineer", "AI Engineer", "Achievement"]
         },
         {
             date: "February 2025",
